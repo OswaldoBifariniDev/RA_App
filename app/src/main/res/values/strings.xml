@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RiesgoRA</string>
+    <string name="titulo_registro">Crear Cuenta</string>
+    <string name="etiqueta_nombre">Nombre y Apellido</string>
+    <string name="etiqueta_identificacion">Número de Identificación (Cédula/Pasaporte)</string>
+    <string name="etiqueta_correo">Correo Electrónico</string>
+    <string name="etiqueta_contrasena">Contraseña</string>
+    <string name="btn_registrar">Registrarse</string>
+    <string name="txt_ir_login">¿Ya tienes cuenta? Inicia Sesión</string>
+</resources>
