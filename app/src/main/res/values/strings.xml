@@ -7,4 +7,40 @@
     <string name="etiqueta_contrasena">Contraseña</string>
     <string name="btn_registrar">Registrarse</string>
     <string name="txt_ir_login">¿Ya tienes cuenta? Inicia Sesión</string>
+    <string name="navigation_inicio">Inicio</string>
+    <string name="navigation_riesgos">Riesgos</string>
+    <string name="navigation_simulacros">Simulacros</string>
+    <string name="navigation_ruta_segura">Ruta segura</string>
+    <string name="navigation_perfil">Perfil</string>
+    <string name="descripcion_marca">Escudo de Aula Segura</string>
+    <string name="titulo_aplicacion">Aula Segura</string>
+    <string name="subtitulo_aplicacion">Comunidad educativa</string>
+    <string name="estado_sin_conexion">Disponible sin conexión</string>
+    <string name="saludo_inicio">¡Hola, %1$s!</string>
+    <string name="nombre_usuario_predeterminado">Usuario</string>
+    <string name="mensaje_bienvenida">Prepárate, previene y mantente seguro.</string>
+    <string name="encabezado_ayuda_emergencia">AYUDA Y EMERGENCIA</string>
+    <string name="etiqueta_consejo">CONSEJO DE SEGURIDAD</string>
+    <string name="descripcion_carrusel">Consejos de ayuda y emergencia. Desliza para cambiar de imagen.</string>
+    <string name="descripcion_imagen_ayuda">Ilustración: %1$s</string>
+    <string name="descripcion_pagina_carrusel">Imagen %1$d de %2$d</string>
+    <string name="dia_evento">08</string>
+    <string name="mes_evento">OCT</string>
+    <string name="etiqueta_evento">PRÓXIMO EVENTO PREVENTIVO</string>
+    <string name="titulo_evento">Charla: actuar ante un sismo</string>
+    <string name="detalle_evento">10:30 · Auditorio principal</string>
+    <string name="descripcion_informacion">Información</string>
+    <string name="mensaje_aviso_emergencia">Esta aplicación complementa la respuesta durante emergencias; no reemplaza alarmas, señalización física ni instrucciones de las autoridades.</string>
+
+    <string-array name="titulos_ayuda_emergencia">
+        <item>Reconoce las rutas de evacuación</item>
+        <item>Prepara tu mochila de emergencia</item>
+        <item>Acuerda un punto de encuentro</item>
+    </string-array>
+
+    <string-array name="detalles_ayuda_emergencia">
+        <item>Ubica las salidas y mantén despejadas las zonas de paso.</item>
+        <item>Ten agua, una linterna y artículos esenciales a la mano.</item>
+        <item>Elige con tu familia un lugar seguro para reunirse.</item>
+    </string-array>
 </resources>

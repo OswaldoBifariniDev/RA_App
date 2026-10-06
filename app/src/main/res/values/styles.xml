@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="Widget.RiesgosRa.BottomNavigationView"
+        parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconSize">20dp</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
+
+        <item name="itemIconTint">@color/bottom_navigation_item_color</item>
+        <item name="itemTextColor">@color/bottom_navigation_item_color</item>
+
+        <item name="itemTextAppearanceActive">
+            @style/TextAppearance.RiesgosRa.BottomNavigation
+        </item>
+
+        <item name="itemTextAppearanceInactive">
+            @style/TextAppearance.RiesgosRa.BottomNavigation
+        </item>
+
+        <item name="itemActiveIndicatorStyle">
+            @style/Widget.RiesgosRa.BottomNavigationView.ActiveIndicator
+        </item>
+
+    </style>
+
+    <style
+        name="Widget.RiesgosRa.BottomNavigationView.ActiveIndicator"
+        parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+
+        <item name="android:width">48dp</item>
+        <item name="android:height">28dp</item>
+        <item name="android:color">@color/color_secondary</item>
+
+    </style>
+
+    <style
+        name="TextAppearance.RiesgosRa.BottomNavigation"
+        parent="TextAppearance.Material3.LabelMedium">
+
+        <item name="android:textSize">10sp</item>
+
+    </style>
+
+</resources>
