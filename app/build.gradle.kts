@@ -7,7 +7,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.ra_app"
+        applicationId = "com.example.riesgosra_vinculacion"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
