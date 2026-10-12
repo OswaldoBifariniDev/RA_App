@@ -1,5 +1,6 @@
-package com.example.ra_app.ui.auth
+package com.riesgosra.app.view.auth
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -7,7 +8,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.example.ra_app.R
+import com.riesgosra.app.R
+import com.riesgosra.app.presenter.RegistroViewModel
+import com.riesgosra.app.view.login.LoginActivity
 
 class RegistroActivity : AppCompatActivity() {
 
@@ -34,13 +37,15 @@ class RegistroActivity : AppCompatActivity() {
         }
 
         txtIrLogin.setOnClickListener {
-            // CONEXION: Navegar a LoginActivity
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
         }
 
         viewModel.registroExitoso.observe(this) { exito ->
             if (exito) {
-                Toast.makeText(this, "¡Registro exitoso!", Toast.LENGTH_LONG).show()
-                // CONEXION: Navegar a MainMenuActivity
+                Toast.makeText(this, "Registro de demostración completado; no se creó una cuenta en la API.", Toast.LENGTH_LONG).show()
+                startActivity(Intent(this, LoginActivity::class.java))
+                finish()
             }
         }
 

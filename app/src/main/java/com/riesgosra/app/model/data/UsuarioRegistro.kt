@@ -1,6 +1,6 @@
-package com.example.ra_app.data.model
+package com.riesgosra.app.model.data
 
-data class Usuario(
+data class UsuarioRegistro(
     val idUsuario: String = "", // aqyui va el id interno d la db
     val nombreApellido: String = "",
     val numeroIdentificacion: String = "", // cedula o Pasaporte

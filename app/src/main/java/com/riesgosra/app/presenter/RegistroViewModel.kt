@@ -1,9 +1,9 @@
-package com.example.ra_app.ui.auth
+package com.riesgosra.app.presenter
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.MutableLiveData
-import com.example.ra_app.data.model.Usuario
-import com.example.ra_app.data.repository.UsuarioRepository
+import com.riesgosra.app.model.data.UsuarioRegistro
+import com.riesgosra.app.model.repository.UsuarioRepository
 
 class RegistroViewModel : ViewModel() {
     private val repositorio = UsuarioRepository()
@@ -25,7 +25,7 @@ class RegistroViewModel : ViewModel() {
             return
         }
 
-        val nuevoUsuario = Usuario(
+        val nuevoUsuario = UsuarioRegistro(
             nombreApellido = nombre,
             numeroIdentificacion = identificacion,
             correoElectronico = correo,
