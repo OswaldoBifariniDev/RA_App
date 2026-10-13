@@ -8,7 +8,6 @@
     <string name="etiqueta_contrasena">Contraseña</string>
     <string name="btn_registrar">Registrarse</string>
     <string name="txt_ir_login">¿Ya tienes cuenta? Inicia Sesión</string>
-<<<<<<< HEAD
     <string name="navigation_inicio">Inicio</string>
     <string name="navigation_riesgos">Riesgos</string>
     <string name="navigation_simulacros">Simulacros</string>
@@ -45,7 +44,6 @@
         <item>Ten agua, una linterna y artículos esenciales a la mano.</item>
         <item>Elige con tu familia un lugar seguro para reunirse.</item>
     </string-array>
-=======
     <string name="titulo_inicio_sesion">Inicio de Sesión</string>
     <string name="etiqueta_identificador">
         Correo electrónico o Cédula de identidad
@@ -62,5 +60,4 @@
     <string name="error_contrasena_vacia">
         Ingrese su contraseña.
     </string>
->>>>>>> 1f1102b7d66b4213af6f1d5544c86a04b3600622
 </resources>

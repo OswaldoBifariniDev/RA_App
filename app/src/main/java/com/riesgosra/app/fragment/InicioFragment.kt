@@ -1,4 +1,4 @@
-package com.example.ra_app.ui.main.fragment
+package com.riesgosra.app.fragment
 
 import android.os.Bundle
 import android.os.Handler
@@ -12,7 +12,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.ViewFlipper
 import androidx.fragment.app.Fragment
-import com.example.ra_app.R
+import com.riesgosra.app.R
 import kotlin.math.abs
 
 class InicioFragment : Fragment(R.layout.fragment_inicio) {

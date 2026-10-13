@@ -5,17 +5,14 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-<<<<<<< HEAD:app/src/main/java/com/example/ra_app/MainActivity.kt
 import androidx.fragment.app.Fragment
-import com.example.ra_app.ui.main.fragment.InicioFragment
-import com.example.ra_app.ui.main.fragment.PerfilFragment
-import com.example.ra_app.ui.main.fragment.RiesgosFragment
-import com.example.ra_app.ui.main.fragment.RutaSeguraFragment
-import com.example.ra_app.ui.main.fragment.SimulacrosFragment
+import com.riesgosra.app.fragment.InicioFragment
+import com.riesgosra.app.fragment.PerfilFragment
+import com.riesgosra.app.fragment.RiesgosFragment
+import com.riesgosra.app.fragment.RutaSeguraFragment
+import com.riesgosra.app.fragment.SimulacrosFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-=======
 import com.riesgosra.app.R
->>>>>>> 1f1102b7d66b4213af6f1d5544c86a04b3600622:app/src/main/java/com/riesgosra/app/login/view/main/MainActivity.kt
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,7 +36,6 @@ class MainActivity : AppCompatActivity() {
             navegacionInferior.selectedItemId = R.id.navigation_inicio
         }
     }
-<<<<<<< HEAD:app/src/main/java/com/example/ra_app/MainActivity.kt
 
     private fun configurarNavegacion() {
         navegacionInferior.setOnItemSelectedListener { item ->
@@ -63,6 +59,4 @@ class MainActivity : AppCompatActivity() {
             else -> null
         }
     }
-=======
->>>>>>> 1f1102b7d66b4213af6f1d5544c86a04b3600622:app/src/main/java/com/riesgosra/app/login/view/main/MainActivity.kt
 }

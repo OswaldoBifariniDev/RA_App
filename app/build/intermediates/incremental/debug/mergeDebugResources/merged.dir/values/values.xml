@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="detalles_ayuda_emergencia">
+        <item>Ubica las salidas y mantén despejadas las zonas de paso.</item>
+        <item>Ten agua, una linterna y artículos esenciales a la mano.</item>
+        <item>Elige con tu familia un lugar seguro para reunirse.</item>
+    </string-array>
+    <string-array name="titulos_ayuda_emergencia">
+        <item>Reconoce las rutas de evacuación</item>
+        <item>Prepara tu mochila de emergencia</item>
+        <item>Acuerda un punto de encuentro</item>
+    </string-array>
     <attr format="enum" name="animateCircleAngleTo">
         <enum name="bestChoice" value="0"/>
         <enum name="closest" value="1"/>
@@ -640,12 +650,14 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="advertencia">#C96B00</color>
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="borde">#D8E2E0</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -660,13 +672,22 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="color_background">@color/color_fondo</color>
     <color name="color_borde">#D8E2E0</color>
+    <color name="color_border">@color/color_borde</color>
     <color name="color_error">#D95B52</color>
     <color name="color_fondo">#F8F8F8</color>
+    <color name="color_primary">@color/color_principal</color>
     <color name="color_principal">#084848</color>
+    <color name="color_secondary">#E8F8F0</color>
+    <color name="color_success">#2C6858</color>
     <color name="color_superficie">#FFFFFF</color>
+    <color name="color_surface">@color/color_superficie</color>
+    <color name="color_text">@color/color_texto_principal</color>
+    <color name="color_text_secondary">@color/color_texto_secundario</color>
     <color name="color_texto_principal">#183030</color>
     <color name="color_texto_secundario">#687876</color>
+    <color name="color_warning">#C96B00</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -706,8 +727,11 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="error">#D95B52</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
+    <color name="exito">#2C6858</color>
+    <color name="fondo">#F8F8F8</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
@@ -959,16 +983,21 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="principal">#084848</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="secundario">#E8F8F0</color>
+    <color name="superficie">#FFFFFF</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="texto">#183030</color>
+    <color name="texto_secundario">#687876</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
@@ -1052,7 +1081,10 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="altura_boton">56dp</dimen>
+    <dimen name="altura_campo">56dp</dimen>
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
+    <dimen name="bottom_navigation_height">84dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -1115,6 +1147,13 @@
     <dimen name="design_textinput_caption_translate_y">5dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="espaciado_12">12dp</dimen>
+    <dimen name="espaciado_16">16dp</dimen>
+    <dimen name="espaciado_20">20dp</dimen>
+    <dimen name="espaciado_24">24dp</dimen>
+    <dimen name="espaciado_32">32dp</dimen>
+    <dimen name="espaciado_4">4dp</dimen>
+    <dimen name="espaciado_8">8dp</dimen>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
@@ -1125,6 +1164,8 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="indicador_carrusel_normal">8dp</dimen>
+    <dimen name="indicador_carrusel_seleccionado">20dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
@@ -1758,6 +1799,8 @@
     <dimen name="notification_subtext_size">13sp</dimen>
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="radio_boton">12dp</dimen>
+    <dimen name="radio_campo">12dp</dimen>
     <dimen name="sliding_pane_detail_pane_width">300dp</dimen>
     <dimen name="tooltip_corner_radius">2dp</dimen>
     <dimen name="tooltip_horizontal_padding">16dp</dimen>
@@ -1998,7 +2041,9 @@
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesión</string>
     <string name="btn_registrar">Registrarse</string>
+    <string name="btn_registrarse">Registrarse</string>
     <string name="call_notification_answer_action">Answer</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Decline</string>
@@ -2010,19 +2055,43 @@
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="descripcion_carrusel">Consejos de ayuda y emergencia. Desliza para cambiar de imagen.</string>
+    <string name="descripcion_imagen_ayuda">Ilustración: %1$s</string>
+    <string name="descripcion_informacion">Información</string>
+    <string name="descripcion_marca">Escudo de Aula Segura</string>
+    <string name="descripcion_pagina_carrusel">Imagen %1$d de %2$d</string>
     <string name="dest_title">destination title</string>
+    <string name="detalle_evento">10:30 · Auditorio principal</string>
+    <string name="dia_evento">08</string>
+    <string name="encabezado_ayuda_emergencia">AYUDA Y EMERGENCIA</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
+    <string name="error_contrasena_vacia">
+        Ingrese su contraseña.
+    </string>
     <string name="error_icon_content_description">Error</string>
+    <string name="error_identificador_vacio">
+        Ingrese su correo electrónico o cédula.
+    </string>
+    <string name="estado_sin_conexion">Disponible sin conexión</string>
+    <string name="etiqueta_consejo">CONSEJO DE SEGURIDAD</string>
     <string name="etiqueta_contrasena">Contraseña</string>
     <string name="etiqueta_correo">Correo Electrónico</string>
+    <string name="etiqueta_evento">PRÓXIMO EVENTO PREVENTIVO</string>
     <string name="etiqueta_identificacion">Número de Identificación (Cédula/Pasaporte)</string>
+    <string name="etiqueta_identificador">
+        Correo electrónico o Cédula de identidad
+    </string>
     <string name="etiqueta_nombre">Nombre y Apellido</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_contrasena">Ingrese su contraseña</string>
+    <string name="hint_identificador">
+        ej. nombre@ejemplo.com o 1234567890
+    </string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
     <string name="m3_exceed_max_badge_text_suffix" translatable="false"><ns2:g example="Some te" id="part of a long text">%1$s</ns2:g><ns2:g example="…" id="suffix">%2$s</ns2:g></string>
@@ -2063,6 +2132,9 @@
     <string description="Suffix for time in 12-hour standard, after noon. [CHAR_LIMIT=2]" name="material_timepicker_pm">PM</string>
     <string description="Title for the dialog with a time picker. [CHAR_LIMIT=32]" name="material_timepicker_select_time">Select time</string>
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="mensaje_aviso_emergencia">Esta aplicación complementa la respuesta durante emergencias; no reemplaza alarmas, señalización física ni instrucciones de las autoridades.</string>
+    <string name="mensaje_bienvenida">Prepárate, previene y mantente seguro.</string>
+    <string name="mes_evento">OCT</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_checkbox_button_icon_path_checked" translatable="false">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
     <string name="mtrl_checkbox_button_icon_path_group_name" translatable="false">icon</string>
@@ -2133,11 +2205,18 @@
     <string description="Button text to indicate that the widget will save the user&apos;s selection [CHAR_LIMIT=16]" name="mtrl_timepicker_confirm">OK</string>
     <string name="nav_app_bar_navigate_up_description">Navigate up</string>
     <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="navigation_inicio">Inicio</string>
+    <string name="navigation_perfil">Perfil</string>
+    <string name="navigation_riesgos">Riesgos</string>
+    <string name="navigation_ruta_segura">Ruta segura</string>
+    <string name="navigation_simulacros">Simulacros</string>
+    <string name="nombre_usuario_predeterminado">Usuario</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="saludo_inicio">¡Hola, %1$s!</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior
@@ -2147,6 +2226,10 @@
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subtitulo_aplicacion">Comunidad educativa</string>
+    <string name="titulo_aplicacion">Aula Segura</string>
+    <string name="titulo_evento">Charla: actuar ante un sismo</string>
+    <string name="titulo_inicio_sesion">Inicio de Sesión</string>
     <string name="titulo_registro">Crear Cuenta</string>
     <string name="txt_ir_login">¿Ya tienes cuenta? Inicia Sesión</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -6355,6 +6438,11 @@
     <style name="TextAppearance.MaterialComponents.Tooltip" parent="TextAppearance.MaterialComponents.Body2">
     <item name="android:textColor">?attr/colorOnPrimary</item>
   </style>
+    <style name="TextAppearance.RiesgosRa.BottomNavigation" parent="TextAppearance.Material3.LabelMedium">
+
+        <item name="android:textSize">10sp</item>
+
+    </style>
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
@@ -6550,6 +6638,15 @@
     <item name="windowNoTitle">true</item>
   </style>
     <style name="Theme.RA_App" parent="Base.Theme.RA_App"/>
+    <style name="Theme.RA_App.Login" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/principal</item>
+        <item name="colorPrimaryVariant">@color/principal</item>
+        <item name="colorOnPrimary">@color/superficie</item>
+        <item name="colorSecondary">@color/secundario</item>
+        <item name="android:statusBarColor">@color/fondo</item>
+        <item name="android:navigationBarColor">@color/fondo</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
@@ -9174,6 +9271,33 @@
     <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Tooltip</item>
     <item name="shapeAppearance">@style/ShapeAppearance.MaterialComponents.Tooltip</item>
   </style>
+    <style name="Widget.RiesgosRa.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconSize">20dp</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
+
+        <item name="itemIconTint">@color/bottom_navigation_item_color</item>
+        <item name="itemTextColor">@color/bottom_navigation_item_color</item>
+
+        <item name="itemTextAppearanceActive">
+            @style/TextAppearance.RiesgosRa.BottomNavigation
+        </item>
+
+        <item name="itemTextAppearanceInactive">
+            @style/TextAppearance.RiesgosRa.BottomNavigation
+        </item>
+
+        <item name="itemActiveIndicatorStyle">
+            @style/Widget.RiesgosRa.BottomNavigationView.ActiveIndicator
+        </item>
+
+    </style>
+    <style name="Widget.RiesgosRa.BottomNavigationView.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+
+        <item name="android:width">48dp</item>
+        <item name="android:height">28dp</item>
+        <item name="android:color">@color/color_secondary</item>
+
+    </style>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
