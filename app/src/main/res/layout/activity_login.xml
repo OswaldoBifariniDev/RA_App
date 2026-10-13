@@ -12,7 +12,7 @@
     android:paddingEnd="@dimen/espaciado_24"
     android:paddingTop="@dimen/espaciado_24"
     android:paddingBottom="@dimen/espaciado_24"
-    tools:context="com.riesgosra.app.view.login.LoginActivity">
+    tools:context="com.riesgosra.app.login.view.login.LoginActivity">
 
     <TextView
         android:id="@+id/txt_titulo_inicio_sesion"
