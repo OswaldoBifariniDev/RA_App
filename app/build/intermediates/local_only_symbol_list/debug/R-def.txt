@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color color_borde
+color color_error
+color color_fondo
+color color_principal
+color color_superficie
+color color_texto_principal
+color color_texto_secundario
+drawable bg_textfield
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_registrar
+id et_contrasena
+id et_correo_electronico
+id et_identificacion
+id et_nombre_apellido
+id main
+id txt_ir_login
+id txt_titulo_registro
+layout activity_main
+layout activity_registro
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_registrar
+string etiqueta_contrasena
+string etiqueta_correo
+string etiqueta_identificacion
+string etiqueta_nombre
+string titulo_registro
+string txt_ir_login
+style Base.Theme.RA_App
+style Theme.RA_App
+xml backup_rules
+xml data_extraction_rules

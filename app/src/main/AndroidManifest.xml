@@ -22,23 +22,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RA_App">
+        android:theme="@style/Theme.RA_App"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
 
-        <!-- Pantalla principal -->
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
-
+            android:name="com.riesgosra.app.login.view.login.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.RA_App.Login"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
 
-        <!-- Nueva pantalla de Registro -->
-        <activity android:name=".ui.auth.RegistroActivity" android:exported="false" />
+        <activity
+            android:name="com.riesgosra.app.login.view.auth.RegistroActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.riesgosra.app.login.view.main.MainActivity"
+            android:exported="false" />
 
     </application>
-
 </manifest>

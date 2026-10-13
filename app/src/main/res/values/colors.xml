@@ -7,6 +7,7 @@
     <color name="color_borde">#D8E2E0</color>
     <color name="color_texto_secundario">#687876</color>
     <color name="color_error">#D95B52</color>
+<<<<<<< HEAD
     <color name="color_primary">@color/color_principal</color>
     <color name="color_text">@color/color_texto_principal</color>
     <color name="color_background">@color/color_fondo</color>
@@ -16,4 +17,16 @@
     <color name="color_text_secondary">@color/color_texto_secundario</color>
     <color name="color_success">#2C6858</color>
     <color name="color_warning">#C96B00</color>
+=======
+    <color name="principal">#084848</color>
+    <color name="texto">#183030</color>
+    <color name="fondo">#F8F8F8</color>
+    <color name="superficie">#FFFFFF</color>
+    <color name="secundario">#E8F8F0</color>
+    <color name="borde">#D8E2E0</color>
+    <color name="texto_secundario">#687876</color>
+    <color name="exito">#2C6858</color>
+    <color name="advertencia">#C96B00</color>
+    <color name="error">#D95B52</color>
+>>>>>>> 1f1102b7d66b4213af6f1d5544c86a04b3600622
 </resources>

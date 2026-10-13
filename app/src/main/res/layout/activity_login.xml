@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:paddingStart="@dimen/espaciado_24"
+    android:paddingEnd="@dimen/espaciado_24"
+    android:paddingTop="@dimen/espaciado_24"
+    android:paddingBottom="@dimen/espaciado_24"
+    tools:context="com.riesgosra.app.login.view.login.LoginActivity">
+
+    <TextView
+        android:id="@+id/txt_titulo_inicio_sesion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espaciado_32"
+        android:fontFamily="sans"
+        android:gravity="center"
+        android:text="@string/titulo_inicio_sesion"
+        android:textColor="@color/texto"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_etiqueta_identificador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espaciado_32"
+        android:fontFamily="sans"
+        android:text="@string/etiqueta_identificador"
+        android:textColor="@color/texto"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_titulo_inicio_sesion" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_identificador"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espaciado_8"
+        app:hintEnabled="false"
+        app:boxBackgroundColor="@color/superficie"
+        app:boxCornerRadiusBottomEnd="@dimen/radio_campo"
+        app:boxCornerRadiusBottomStart="@dimen/radio_campo"
+        app:boxCornerRadiusTopEnd="@dimen/radio_campo"
+        app:boxCornerRadiusTopStart="@dimen/radio_campo"
+        app:boxStrokeColor="@color/selector_borde_campo"
+        app:startIconDrawable="@drawable/ic_persona"
+        app:startIconTint="@color/principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_etiqueta_identificador">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_identificador"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_campo"
+            android:hint="@string/hint_identificador"
+            android:inputType="text"
+            android:textColor="@color/texto"
+            android:textColorHint="@color/texto_secundario"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_etiqueta_contrasena"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espaciado_24"
+        android:fontFamily="sans"
+        android:text="@string/etiqueta_contrasena"
+        android:textColor="@color/texto"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_identificador" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_contrasena"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/espaciado_8"
+        app:hintEnabled="false"
+        app:boxBackgroundColor="@color/superficie"
+        app:boxCornerRadiusBottomEnd="@dimen/radio_campo"
+        app:boxCornerRadiusBottomStart="@dimen/radio_campo"
+        app:boxCornerRadiusTopEnd="@dimen/radio_campo"
+        app:boxCornerRadiusTopStart="@dimen/radio_campo"
+        app:boxStrokeColor="@color/selector_borde_campo"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/ic_candado"
+        app:startIconTint="@color/principal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_etiqueta_contrasena">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_campo"
+            android:hint="@string/hint_contrasena"
+            android:inputType="textPassword"
+            android:textColor="@color/texto"
+            android:textColorHint="@color/texto_secundario"
+            android:textSize="16sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_iniciar_sesion"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/altura_boton"
+        android:layout_marginTop="@dimen/espaciado_32"
+        android:text="@string/btn_iniciar_sesion"
+        android:textAllCaps="false"
+        android:textColor="@color/superficie"
+        android:textSize="16sp"
+        app:backgroundTint="@color/principal"
+        app:cornerRadius="@dimen/radio_boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_contrasena" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_registrarse"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/altura_boton"
+        android:layout_marginTop="@dimen/espaciado_16"
+        android:text="@string/btn_registrarse"
+        android:textAllCaps="false"
+        android:textColor="@color/principal"
+        android:textSize="16sp"
+        app:backgroundTint="@color/superficie"
+        app:cornerRadius="@dimen/radio_boton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_iniciar_sesion"
+        app:strokeColor="@color/borde"
+        app:strokeWidth="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

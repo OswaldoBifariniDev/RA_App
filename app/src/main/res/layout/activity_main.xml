@@ -6,8 +6,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/color_background"
     tools:context=".MainActivity">
+=======
+    tools:context="com.riesgosra.app.login.view.main.MainActivity">
+>>>>>>> 1f1102b7d66b4213af6f1d5544c86a04b3600622
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_contenedor_principal"

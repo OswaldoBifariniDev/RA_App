@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources>
 
     <dimen name="bottom_navigation_height">84dp</dimen>
@@ -5,3 +6,23 @@
     <dimen name="indicador_carrusel_seleccionado">20dp</dimen>
 
 </resources>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="espaciado_4">4dp</dimen>
+    <dimen name="espaciado_8">8dp</dimen>
+    <dimen name="espaciado_12">12dp</dimen>
+    <dimen name="espaciado_16">16dp</dimen>
+    <dimen name="espaciado_20">20dp</dimen>
+    <dimen name="espaciado_24">24dp</dimen>
+    <dimen name="espaciado_32">32dp</dimen>
+
+    <dimen name="altura_campo">56dp</dimen>
+    <dimen name="altura_boton">56dp</dimen>
+
+    <dimen name="radio_campo">12dp</dimen>
+    <dimen name="radio_boton">12dp</dimen>
+
+</resources>
+>>>>>>> 1f1102b7d66b4213af6f1d5544c86a04b3600622
