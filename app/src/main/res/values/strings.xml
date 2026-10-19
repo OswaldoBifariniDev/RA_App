@@ -6,7 +6,16 @@
     <string name="etiqueta_correo">Correo Electrónico</string>
     <string name="etiqueta_contrasena">Contraseña</string>
     <string name="btn_registrar">Registrarse</string>
+    <string name="hint_nombre">Escribe tu nombre</string>
+    <string name="hint_identificacion">Escribe tu cédula o pasaporte</string>
+    <string name="hint_correo">correo@ejemplo.com</string>
+    <string name="hint_contrasena">Mínimo 6 caracteres</string>
     <string name="txt_ir_login">¿Ya tienes cuenta? Inicia Sesión</string>
+    <string name="mensaje_registro_exitoso">¡Registro exitoso!</string>
+    <string name="error_registro_campos_obligatorios">Todos los campos son obligatorios</string>
+    <string name="error_registro_correo_invalido">Ingrese un correo electrónico válido</string>
+    <string name="error_registro_contrasena_invalida">La contraseña no cumple la longitud mínima permitida</string>
+    <string name="error_registro_datos_incompletos">Error: Datos incompletos</string>
     <string name="navigation_inicio">Inicio</string>
     <string name="navigation_riesgos">Riesgos</string>
     <string name="navigation_simulacros">Simulacros</string>
@@ -19,16 +28,16 @@
     <string name="saludo_inicio">¡Hola, %1$s!</string>
     <string name="nombre_usuario_predeterminado">Usuario</string>
     <string name="mensaje_bienvenida">Prepárate, previene y mantente seguro.</string>
-    <string name="encabezado_ayuda_emergencia">AYUDA Y EMERGENCIA</string>
+    <string name="encabezado_ayuda_emergencia">PREVENCIÓN Y PREPARACIÓN</string>
     <string name="etiqueta_consejo">CONSEJO DE SEGURIDAD</string>
-    <string name="descripcion_carrusel">Consejos de ayuda y emergencia. Desliza para cambiar de imagen.</string>
+    <string name="descripcion_carrusel">Consejos de prevención y preparación ante emergencias.</string>
     <string name="descripcion_imagen_ayuda">Ilustración: %1$s</string>
-    <string name="descripcion_pagina_carrusel">Imagen %1$d de %2$d</string>
-    <string name="dia_evento">08</string>
-    <string name="mes_evento">OCT</string>
-    <string name="etiqueta_evento">PRÓXIMO EVENTO PREVENTIVO</string>
-    <string name="titulo_evento">Charla: actuar ante un sismo</string>
-    <string name="detalle_evento">10:30 · Auditorio principal</string>
+    <string name="descripcion_pagina_carrusel">Consejo %1$d de %2$d: %3$s</string>
+    <string name="accion_consejo_anterior">Consejo anterior</string>
+    <string name="accion_consejo_siguiente">Consejo siguiente</string>
+    <string name="accion_escanear_qr">Escanear código QR</string>
+    <string name="texto_prompt_scanner">Centra el código QR dentro del marco</string>
+    <string name="titulo_resultado_qr">Contenido del código QR</string>
     <string name="descripcion_informacion">Información</string>
     <string name="mensaje_aviso_emergencia">Esta aplicación complementa la respuesta durante emergencias; no reemplaza alarmas, señalización física ni instrucciones de las autoridades.</string>
 
@@ -40,7 +49,7 @@
 
     <string-array name="detalles_ayuda_emergencia">
         <item>Ubica las salidas y mantén despejadas las zonas de paso.</item>
-        <item>Ten agua, una linterna y artículos esenciales a la mano.</item>
-        <item>Elige con tu familia un lugar seguro para reunirse.</item>
+        <item>Ten agua y artículos esenciales a la mano.</item>
+        <item>Diriguete hacia un lugar seguro para reunirse.</item>
     </string-array>
 </resources>

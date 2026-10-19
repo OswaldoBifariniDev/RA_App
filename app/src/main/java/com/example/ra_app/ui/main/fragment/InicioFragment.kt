@@ -11,8 +11,11 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.ViewFlipper
+import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import com.example.ra_app.R
+import com.journeyapps.barcodescanner.ScanContract
+import com.journeyapps.barcodescanner.ScanOptions
 import kotlin.math.abs
 
 class InicioFragment : Fragment(R.layout.fragment_inicio) {
@@ -20,6 +23,16 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
     private val manejadorCarrusel = Handler(Looper.getMainLooper())
     private var carruselAyuda: ViewFlipper? = null
     private var filaIndicadores: LinearLayout? = null
+    private val lanzadorEscanerQr = registerForActivityResult(ScanContract()) { resultado ->
+        val contenidoQr = resultado.contents ?: return@registerForActivityResult
+        if (!isAdded) return@registerForActivityResult
+
+        AlertDialog.Builder(requireContext())
+            .setTitle(R.string.titulo_resultado_qr)
+            .setMessage(contenidoQr)
+            .setPositiveButton(android.R.string.ok, null)
+            .show()
+    }
 
     private val avanzarCarrusel = object : Runnable {
         override fun run() {
@@ -42,6 +55,10 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
         configurarDiapositivas()
         actualizarIndicadores(0)
         configurarGestos()
+        configurarAccionesCarrusel(view)
+        view.findViewById<View>(R.id.btn_escanear_qr).setOnClickListener {
+            iniciarEscaneoQr()
+        }
     }
 
     override fun onResume() {
@@ -97,8 +114,12 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
                 ): Boolean {
                     if (inicio == null) return false
 
-                    val distanciaMinima = 48 * resources.displayMetrics.density
-                    if (abs(inicio.x - fin.x) < distanciaMinima || abs(velocidadX) < 100) {
+                    val distanciaMinima = resources.getDimension(
+                        R.dimen.distancia_gesto_carrusel_minima
+                    )
+                    if (abs(inicio.x - fin.x) < distanciaMinima ||
+                        abs(velocidadX) < VELOCIDAD_MINIMA_GESTO
+                    ) {
                         return false
                     }
 
@@ -113,6 +134,27 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
             detectorGestos.onTouchEvent(evento)
             true
         }
+    }
+
+    private fun configurarAccionesCarrusel(vista: View) {
+        vista.findViewById<View>(R.id.btn_anterior_carrusel).setOnClickListener {
+            navegarCarrusel(avanzar = false)
+            programarAvanceAutomatico()
+        }
+        vista.findViewById<View>(R.id.btn_siguiente_carrusel).setOnClickListener {
+            navegarCarrusel(avanzar = true)
+            programarAvanceAutomatico()
+        }
+    }
+
+    private fun iniciarEscaneoQr() {
+        val opcionesEscaneo = ScanOptions().apply {
+            setDesiredBarcodeFormats(ScanOptions.QR_CODE)
+            setPrompt(getString(R.string.texto_prompt_scanner))
+            setBeepEnabled(false)
+            setOrientationLocked(false)
+        }
+        lanzadorEscanerQr.launch(opcionesEscaneo)
     }
 
     private fun navegarCarrusel(avanzar: Boolean) {
@@ -138,9 +180,10 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
         val fila = filaIndicadores ?: return
         val anchoSeleccionado = resources.getDimensionPixelSize(R.dimen.indicador_carrusel_seleccionado)
         val anchoNormal = resources.getDimensionPixelSize(R.dimen.indicador_carrusel_normal)
+        val cantidadDiapositivas = carruselAyuda?.childCount ?: 0
 
-        for (indice in 0 until fila.childCount) {
-            val indicador = fila.getChildAt(indice)
+        for (indice in 0 until cantidadDiapositivas) {
+            val indicador = fila.getChildAt(indice + INDICE_PRIMER_INDICADOR)
             val seleccionado = indice == indiceSeleccionado
             val parametros = indicador.layoutParams
             parametros.width = if (seleccionado) anchoSeleccionado else anchoNormal
@@ -150,11 +193,14 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
             )
         }
 
+        val titulos = resources.getStringArray(R.array.titulos_ayuda_emergencia)
         fila.contentDescription = getString(
             R.string.descripcion_pagina_carrusel,
             indiceSeleccionado + 1,
-            fila.childCount
+            cantidadDiapositivas,
+            titulos.getOrElse(indiceSeleccionado) { "" }
         )
+        carruselAyuda?.contentDescription = fila.contentDescription
     }
 
     private fun programarAvanceAutomatico() {
@@ -165,6 +211,8 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
     companion object {
         private const val INTERVALO_AVANCE_CARRUSEL_MS = 5_000L
         private const val ARG_NOMBRE_USUARIO = "nombre_usuario"
+        private const val INDICE_PRIMER_INDICADOR = 1
+        private const val VELOCIDAD_MINIMA_GESTO = 100f
 
         fun crearConNombre(nombreUsuario: String): InicioFragment = InicioFragment().apply {
             arguments = Bundle().apply {

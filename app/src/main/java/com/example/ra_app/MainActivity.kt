@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import com.example.ra_app.data.repository.UsuarioRepository
 import com.example.ra_app.ui.main.fragment.InicioFragment
 import com.example.ra_app.ui.main.fragment.PerfilFragment
 import com.example.ra_app.ui.main.fragment.RiesgosFragment
@@ -50,7 +51,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun obtenerFragment(menuItemId: Int): Fragment? {
         return when (menuItemId) {
-            R.id.navigation_inicio -> InicioFragment()
+            R.id.navigation_inicio -> InicioFragment.crearConNombre(
+                UsuarioRepository.obtenerNombreUsuario(this).orEmpty()
+            )
             R.id.navigation_riesgos -> RiesgosFragment()
             R.id.navigation_simulacros -> SimulacrosFragment()
             R.id.navigation_ruta_segura -> RutaSeguraFragment()

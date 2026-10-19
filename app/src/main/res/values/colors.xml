@@ -7,6 +7,9 @@
     <color name="color_borde">#D8E2E0</color>
     <color name="color_texto_secundario">#687876</color>
     <color name="color_error">#D95B52</color>
+    <color name="color_fondo_advertencia">#FFF2E3</color>
+    <color name="color_sombra_lanzador">#44000000</color>
+    <color name="color_linea_lanzador">#33FFFFFF</color>
     <color name="color_primary">@color/color_principal</color>
     <color name="color_text">@color/color_texto_principal</color>
     <color name="color_background">@color/color_fondo</color>

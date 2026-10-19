@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_fondo"
-    android:padding="24dp">
+    android:padding="@dimen/espaciado_extra_grande">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,10 +17,10 @@
             android:layout_height="wrap_content"
             android:text="@string/titulo_registro"
             android:textColor="@color/color_texto_principal"
-            android:textSize="28sp"
+            android:textSize="@dimen/tamano_texto_titulo"
             android:textStyle="bold"
             android:fontFamily="sans-serif"
-            android:layout_marginBottom="32dp"/>
+            android:layout_marginBottom="@dimen/espaciado_maximo"/>
 
         <!-- Campo Nombre -->
         <TextView
@@ -28,17 +28,17 @@
             android:layout_height="wrap_content"
             android:text="@string/etiqueta_nombre"
             android:textColor="@color/color_texto_secundario"
-            android:textSize="14sp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
         <EditText
             android:id="@+id/et_nombre_apellido"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/alto_control_accesible"
             android:background="@drawable/bg_textfield"
-            android:paddingHorizontal="16dp"
-            android:hint="Escribe tu nombre"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_nombre"
             android:inputType="textPersonName"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
 
         <!-- Campo Identificación -->
         <TextView
@@ -46,17 +46,17 @@
             android:layout_height="wrap_content"
             android:text="@string/etiqueta_identificacion"
             android:textColor="@color/color_texto_secundario"
-            android:textSize="14sp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
         <EditText
             android:id="@+id/et_identificacion"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/alto_control_accesible"
             android:background="@drawable/bg_textfield"
-            android:paddingHorizontal="16dp"
-            android:hint="Escribe tu cédula o pasaporte"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_identificacion"
             android:inputType="number"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
 
         <!-- Campo Correo -->
         <TextView
@@ -64,17 +64,17 @@
             android:layout_height="wrap_content"
             android:text="@string/etiqueta_correo"
             android:textColor="@color/color_texto_secundario"
-            android:textSize="14sp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
         <EditText
             android:id="@+id/et_correo_electronico"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/alto_control_accesible"
             android:background="@drawable/bg_textfield"
-            android:paddingHorizontal="16dp"
-            android:hint="correo@ejemplo.com"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_correo"
             android:inputType="textEmailAddress"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
 
         <!-- Campo Contraseña -->
         <TextView
@@ -82,37 +82,37 @@
             android:layout_height="wrap_content"
             android:text="@string/etiqueta_contrasena"
             android:textColor="@color/color_texto_secundario"
-            android:textSize="14sp"
-            android:layout_marginBottom="4dp"/>
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
         <EditText
             android:id="@+id/et_contrasena"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/alto_control_accesible"
             android:background="@drawable/bg_textfield"
-            android:paddingHorizontal="16dp"
-            android:hint="Mínimo 6 caracteres"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_contrasena"
             android:inputType="textPassword"
-            android:layout_marginBottom="24dp"/>
+            android:layout_marginBottom="@dimen/espaciado_extra_grande"/>
 
         <!-- Botón Principal -->
         <Button
             android:id="@+id/btn_registrar"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/alto_control_accesible"
             android:text="@string/btn_registrar"
             android:textColor="@color/color_superficie"
             android:backgroundTint="@color/color_principal"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
 
         <!-- Enlace a Login -->
         <TextView
             android:id="@+id/txt_ir_login"
             android:layout_width="wrap_content"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/alto_control_accesible"
             android:text="@string/txt_ir_login"
             android:textColor="@color/color_principal"
             android:gravity="center"
-            android:padding="8dp"/>
+            android:padding="@dimen/espaciado_pequeno"/>
 
     </LinearLayout>
 </ScrollView>
