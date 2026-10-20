@@ -20,7 +20,7 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navegacion_inferior"
-        style="@style/Widget.RiesgosRa.BottomNavigationView"
+        style="@style/widget_riesgos_ra_bottom_navigation_view"
         android:layout_width="0dp"
         android:layout_height="@dimen/bottom_navigation_height"
         app:itemHorizontalTranslationEnabled="false"

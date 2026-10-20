@@ -1,30 +1,18 @@
 # Android Studio / IntelliJ
 *.iml
-.idea/caches/
-.idea/libraries/
-.idea/modules.xml
-.idea/workspace.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
-.idea/deploymentTargetSelector.xml
-.idea/deviceManager.xml
-.idea/runConfigurations.xml
+/.idea/
+/.idea-backup/
 .DS_Store
 
 # Gradle / Android build outputs
 .gradle/
 **/build/
 local.properties
-<<<<<<< HEAD
-
-# Android Studio
-/.idea/
-/.idea-backup/
-
-# Gradle build outputs
-/app/build/
-=======
 captures/
 .externalNativeBuild/
 .cxx/
->>>>>>> 1f1102b7d66b4213af6f1d5544c86a04b3600622
+.kotlin/
+
+# Local signing credentials
+*.jks
+*.keystore

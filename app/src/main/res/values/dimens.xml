@@ -7,12 +7,54 @@
     <dimen name="espaciado_20">20dp</dimen>
     <dimen name="espaciado_24">24dp</dimen>
     <dimen name="espaciado_32">32dp</dimen>
-
     <dimen name="altura_campo">56dp</dimen>
     <dimen name="altura_boton">56dp</dimen>
-
     <dimen name="radio_campo">12dp</dimen>
     <dimen name="radio_boton">12dp</dimen>
+
+
+    <dimen name="espaciado_minimo">4dp</dimen>
+    <dimen name="espaciado_pequeno">8dp</dimen>
+    <dimen name="espaciado_medio">12dp</dimen>
+    <dimen name="espaciado_grande">16dp</dimen>
+    <dimen name="espaciado_extra_grande">24dp</dimen>
+    <dimen name="espaciado_maximo">32dp</dimen>
+
+    <dimen name="tamano_texto_navegacion">10sp</dimen>
+    <dimen name="tamano_texto_detalle">10sp</dimen>
+    <dimen name="tamano_texto_secundario">12sp</dimen>
+    <dimen name="tamano_texto_cuerpo">14sp</dimen>
+    <dimen name="tamano_texto_tarjeta">16sp</dimen>
+    <dimen name="tamano_texto_destacado">18sp</dimen>
+    <dimen name="tamano_texto_saludo">20sp</dimen>
+    <dimen name="tamano_texto_titulo">28sp</dimen>
+
+    <dimen name="alto_control_accesible">48dp</dimen>
+    <dimen name="alto_encabezado_aplicacion">64dp</dimen>
+    <dimen name="tamano_marca_aplicacion">36dp</dimen>
+    <dimen name="alto_estado_conexion">32dp</dimen>
+    <dimen name="alto_bienvenida">88dp</dimen>
+    <dimen name="alto_divisor">1dp</dimen>
+    <dimen name="alto_carrusel">240dp</dimen>
+    <dimen name="alto_fila_indicadores">48dp</dimen>
+    <dimen name="tamano_icono_informacion">16dp</dimen>
+    <dimen name="tamano_icono_ayuda">104dp</dimen>
+    <dimen name="ancho_borde_delgado">1dp</dimen>
+    <dimen name="alto_indicador_navegacion">28dp</dimen>
+    <dimen name="ancho_indicador_navegacion">48dp</dimen>
+    <dimen name="tamano_icono_navegacion">20dp</dimen>
+    <dimen name="distancia_gesto_carrusel_minima">48dp</dimen>
+
+    <dimen name="radio_tarjeta">12dp</dimen>
+    <dimen name="radio_pastilla">16dp</dimen>
+    <dimen name="radio_indicador">4dp</dimen>
+
+    <dimen name="tamano_vector_estado_conexion">10dp</dimen>
+    <dimen name="tamano_vector_informacion">20dp</dimen>
+    <dimen name="tamano_vector_icono">24dp</dimen>
+    <dimen name="tamano_vector_ilustracion">72dp</dimen>
+    <dimen name="tamano_vector_lanzador">108dp</dimen>
+
     <dimen name="bottom_navigation_height">84dp</dimen>
     <dimen name="indicador_carrusel_normal">8dp</dimen>
     <dimen name="indicador_carrusel_seleccionado">20dp</dimen>
