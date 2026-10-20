@@ -37,6 +37,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="16dp"
             android:hint="Escribe tu nombre"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="textPersonName"
             android:layout_marginBottom="16dp"/>
 
@@ -55,6 +57,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="16dp"
             android:hint="Escribe tu cédula o pasaporte"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="number"
             android:layout_marginBottom="16dp"/>
 
@@ -73,6 +77,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="16dp"
             android:hint="correo@ejemplo.com"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="textEmailAddress"
             android:layout_marginBottom="16dp"/>
 
@@ -91,6 +97,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="16dp"
             android:hint="Mínimo 6 caracteres"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="textPassword"
             android:layout_marginBottom="24dp"/>
 

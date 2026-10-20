@@ -16,8 +16,12 @@
     <string name="titulo_registro">Crear Cuenta</string>
     <string name="txt_ir_login">¿Ya tienes cuenta? Inicia Sesión</string>
     <style name="Base.Theme.RA_App" parent="Theme.Material3.DayNight.NoActionBar">
-        
-        
+        <item name="colorPrimary">@color/color_principal</item>
+        <item name="colorOnPrimary">@color/color_superficie</item>
+        <item name="colorSecondary">@color/color_principal</item>
+        <item name="colorOnSecondary">@color/color_superficie</item>
+        <item name="colorSurface">@color/color_superficie</item>
+        <item name="colorOnSurface">@color/color_texto_principal</item>
     </style>
     <style name="Theme.RA_App" parent="Base.Theme.RA_App"/>
 </resources>
