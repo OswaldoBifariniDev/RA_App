@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo"
+    android:padding="@dimen/espaciado_extra_grande">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/txt_titulo_registro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_registro"
+            android:textColor="@color/color_texto_principal"
+            android:textSize="@dimen/tamano_texto_titulo"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="@dimen/espaciado_maximo"/>
+
+        <!-- Campo Nombre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_nombre"
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
+        <EditText
+            android:id="@+id/et_nombre_apellido"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_control_accesible"
+            android:background="@drawable/bg_textfield"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_nombre"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
+
+        <!-- Campo Identificación -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_identificacion"
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
+        <EditText
+            android:id="@+id/et_identificacion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_control_accesible"
+            android:background="@drawable/bg_textfield"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_identificacion"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
+            android:inputType="number"
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
+
+        <!-- Campo Correo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_correo"
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
+        <EditText
+            android:id="@+id/et_correo_electronico"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_control_accesible"
+            android:background="@drawable/bg_textfield"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_correo"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
+
+        <!-- Campo Contraseña -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_contrasena"
+            android:textColor="@color/color_texto_secundario"
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:layout_marginBottom="@dimen/espaciado_minimo"/>
+        <EditText
+            android:id="@+id/et_contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_control_accesible"
+            android:background="@drawable/bg_textfield"
+            android:paddingHorizontal="@dimen/espaciado_grande"
+            android:hint="@string/hint_contrasena_registro"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
+            android:inputType="textPassword"
+            android:layout_marginBottom="@dimen/espaciado_extra_grande"/>
+
+        <!-- Botón Principal -->
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_control_accesible"
+            android:text="@string/btn_registrar"
+            android:textColor="@color/color_superficie"
+            android:backgroundTint="@color/color_principal"
+            android:layout_marginBottom="@dimen/espaciado_grande"/>
+
+        <!-- Enlace a Login -->
+        <TextView
+            android:id="@+id/txt_ir_login"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/alto_control_accesible"
+            android:text="@string/txt_ir_login"
+            android:textColor="@color/color_principal"
+            android:gravity="center"
+            android:padding="@dimen/espaciado_pequeno"/>
+
+    </LinearLayout>
+</ScrollView>

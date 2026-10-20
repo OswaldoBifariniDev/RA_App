@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_activity_main.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_aviso.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_aviso.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout-land_activity_registro.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout-land/activity_registro.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_estado_sin_conexion.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_estado_sin_conexion.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/color_selector_borde_campo.xml.flat",
+        "source": "com.riesgosra.app-main-55:/color/selector_borde_campo.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_estado_sin_conexion.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_estado_sin_conexion.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_mochila_emergencia.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_mochila_emergencia.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_marca.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_marca.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_fragment_inicio.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/fragment_inicio.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_informacion.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_informacion.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_simulacros.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_simulacros.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_salida_derecha.xml.flat",
+        "source": "com.riesgosra.app-main-55:/anim/deslizar_salida_derecha.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_validado.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_validado.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_flecha_izquierda.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_flecha_izquierda.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_icono_principal.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_icono_principal.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_perfil.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_perfil.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_inicio.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_inicio.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_icono_secundario.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_icono_secundario.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_fragment_ruta_segura.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/fragment_ruta_segura.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_punto_encuentro.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_punto_encuentro.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_carrusel.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_carrusel.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_indicador_seleccionado.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_indicador_seleccionado.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_fecha_evento.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_fecha_evento.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_qr_code.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_qr_code.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_tarjeta_principal.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_tarjeta_principal.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_candado.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_candado.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_persona.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_persona.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_fragment_riesgos.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/fragment_riesgos.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_fragment_simulacros.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/fragment_simulacros.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_sin_conexion.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_sin_conexion.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_tarjeta.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_tarjeta.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_activity_login.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_recomendacion.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_recomendacion.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_icono_neutro.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_icono_neutro.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/color_bottom_navigation_item_color.xml.flat",
+        "source": "com.riesgosra.app-main-55:/color/bottom_navigation_item_color.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_ruta_evacuacion.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_ruta_evacuacion.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_salida_izquierda.xml.flat",
+        "source": "com.riesgosra.app-main-55:/anim/deslizar_salida_izquierda.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.riesgosra.app-main-55:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_entrada_derecha.xml.flat",
+        "source": "com.riesgosra.app-main-55:/anim/deslizar_entrada_derecha.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_activity_registro.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/activity_registro.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_entrada_izquierda.xml.flat",
+        "source": "com.riesgosra.app-main-55:/anim/deslizar_entrada_izquierda.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_ruta_segura.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_ruta_segura.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_indicador.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_indicador.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/menu_menu_bottom_navigation.xml.flat",
+        "source": "com.riesgosra.app-main-55:/menu/menu_bottom_navigation.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_fragment_perfil.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_bg_textfield.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/bg_textfield.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_flecha_derecha.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_flecha_derecha.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_marca.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_marca.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/xml_backup_rules.xml.flat",
+        "source": "com.riesgosra.app-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.riesgosra.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/drawable_ic_riesgos.xml.flat",
+        "source": "com.riesgosra.app-main-55:/drawable/ic_riesgos.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-53:/layout_item_ayuda_emergencia.xml.flat",
+        "source": "com.riesgosra.app-main-55:/layout/item_ayuda_emergencia.xml"
+    }
+]
