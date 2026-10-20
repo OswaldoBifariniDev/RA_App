@@ -8,12 +8,21 @@ android {
     namespace = "com.riesgosra.app"
     compileSdk = 34
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     defaultConfig {
         applicationId = "com.example.ra_app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+
+        val riesgosApiUrl = providers.gradleProperty("riesgosApiUrl")
+            .getOrElse("http://127.0.0.1:3000/")
+        require(riesgosApiUrl.endsWith("/") && !riesgosApiUrl.contains('"'))
+        buildConfigField("String", "RIESGOS_API_URL", "\"$riesgosApiUrl\"")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

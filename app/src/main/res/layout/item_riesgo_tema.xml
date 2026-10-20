@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btn_riesgo_tema"
+    style="@style/riesgos_boton_secundario"
+    android:minHeight="104dp"
+    android:layout_marginBottom="@dimen/espaciado_16"
+    android:padding="@dimen/espaciado_16"
+    android:gravity="center_vertical|start"
+    android:textAlignment="viewStart"
+    android:textColor="@color/color_texto_principal"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    app:iconGravity="start"
+    app:iconSize="48dp"
+    app:iconPadding="@dimen/espaciado_16"
+    app:iconTint="@color/color_principal" />

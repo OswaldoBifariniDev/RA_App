@@ -1,6 +1,5 @@
 package com.riesgosra.app.fragment
 
-import androidx.fragment.app.Fragment
-import com.riesgosra.app.R
+import com.riesgosra.app.riesgos.view.RiesgosViewFragment
 
-class RiesgosFragment : Fragment(R.layout.fragment_riesgos)
+class RiesgosFragment : RiesgosViewFragment()
