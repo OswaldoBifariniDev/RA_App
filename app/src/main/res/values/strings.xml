@@ -39,6 +39,11 @@
     <string name="accion_escanear_qr">Escanear código QR</string>
     <string name="texto_prompt_scanner">Centra el código QR dentro del marco</string>
     <string name="titulo_resultado_qr">Contenido del código QR</string>
+    <string name="dia_evento">08</string>
+    <string name="mes_evento">OCT</string>
+    <string name="etiqueta_evento">PRÓXIMO EVENTO PREVENTIVO</string>
+    <string name="titulo_evento">Charla: actuar ante un sismo</string>
+    <string name="detalle_evento">10:30 · Auditorio principal</string>
     <string name="descripcion_informacion">Información</string>
     <string name="mensaje_aviso_emergencia">Esta aplicación complementa la respuesta durante emergencias; no reemplaza alarmas, señalización física ni instrucciones de las autoridades.</string>
 
