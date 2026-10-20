@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="perfil_titulo">Mi perfil</string>
+    <string name="perfil_descripcion">Información del perfil</string>
+    <string name="perfil_aviso_demostracion">Perfil de demostración. Los datos son ficticios y no corresponden a tu cuenta.</string>
+    <string name="perfil_nombre">Nombre</string>
+    <string name="perfil_apellido">Apellido</string>
+</resources>
