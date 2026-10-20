@@ -1,8 +1,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.RA_App" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/color_principal</item>
+        <item name="colorOnPrimary">@color/color_superficie</item>
+        <item name="colorSecondary">@color/color_principal</item>
+        <item name="colorOnSecondary">@color/color_superficie</item>
+        <item name="colorSurface">@color/color_superficie</item>
+        <item name="colorOnSurface">@color/color_texto_principal</item>
     </style>
 
     <style name="Theme.RA_App" parent="Base.Theme.RA_App" />
