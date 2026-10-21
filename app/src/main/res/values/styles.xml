@@ -30,7 +30,7 @@
 
         <item name="android:width">@dimen/ancho_indicador_navegacion</item>
         <item name="android:height">@dimen/alto_indicador_navegacion</item>
-        <item name="android:color">@color/color_secondary</item>
+        <item name="android:color">@color/color_primary</item>
 
     </style>
 

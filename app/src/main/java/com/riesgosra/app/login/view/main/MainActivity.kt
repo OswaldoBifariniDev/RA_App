@@ -1,9 +1,11 @@
 package com.riesgosra.app.login.view.main
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
+import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import com.riesgosra.app.fragment.InicioFragment
@@ -23,9 +25,27 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        WindowCompat.getInsetsController(window, window.decorView).apply {
+            isAppearanceLightStatusBars = false
+            isAppearanceLightNavigationBars = true
+        }
+
+        val fondoBarraNavegacionSistema = findViewById<View>(R.id.navigation_bar_background)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { vista, insets ->
             val barrasSistema = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            vista.setPadding(barrasSistema.left, barrasSistema.top, barrasSistema.right, barrasSistema.bottom)
+            vista.setPadding(
+                barrasSistema.left,
+                barrasSistema.top,
+                barrasSistema.right,
+                barrasSistema.bottom
+            )
+
+            fondoBarraNavegacionSistema.layoutParams =
+                fondoBarraNavegacionSistema.layoutParams.apply {
+                    height = barrasSistema.bottom
+                }
+            fondoBarraNavegacionSistema.translationY = barrasSistema.bottom.toFloat()
             insets
         }
 

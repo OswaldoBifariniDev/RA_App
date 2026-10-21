@@ -679,6 +679,8 @@
     <color name="color_fondo">#F8F8F8</color>
     <color name="color_fondo_advertencia">#FFF2E3</color>
     <color name="color_linea_lanzador">#33FFFFFF</color>
+    <color name="color_navigation_selected">#75E6C4</color>
+    <color name="color_navigation_unselected">#C5D1CF</color>
     <color name="color_primary">@color/color_principal</color>
     <color name="color_principal">#084848</color>
     <color name="color_secondary">#E8F8F0</color>
@@ -689,7 +691,7 @@
     <color name="color_text">@color/color_texto_principal</color>
     <color name="color_text_secondary">@color/color_texto_secundario</color>
     <color name="color_texto_principal">#183030</color>
-    <color name="color_texto_secundario">#687876</color>
+    <color name="color_texto_secundario">#53615F</color>
     <color name="color_warning">#C96B00</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
@@ -1000,7 +1002,7 @@
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="texto">#183030</color>
-    <color name="texto_secundario">#687876</color>
+    <color name="texto_secundario">#53615F</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="zxing_custom_possible_result_points">#903A89CF</color>
@@ -1095,19 +1097,24 @@
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="alto_bienvenida">88dp</dimen>
+    <dimen name="alto_boton_perfil">50dp</dimen>
     <dimen name="alto_carrusel">240dp</dimen>
     <dimen name="alto_control_accesible">48dp</dimen>
     <dimen name="alto_divisor">1dp</dimen>
     <dimen name="alto_encabezado_aplicacion">64dp</dimen>
+    <dimen name="alto_encabezado_info_perfil">40dp</dimen>
+    <dimen name="alto_encabezado_perfil">56dp</dimen>
     <dimen name="alto_estado_conexion">32dp</dimen>
     <dimen name="alto_fila_indicadores">48dp</dimen>
     <dimen name="alto_indicador_navegacion">28dp</dimen>
+    <dimen name="alto_marco_foto_perfil">136dp</dimen>
+    <dimen name="alto_portada_perfil">120dp</dimen>
     <dimen name="altura_boton">56dp</dimen>
     <dimen name="altura_campo">56dp</dimen>
     <dimen name="ancho_borde_delgado">1dp</dimen>
     <dimen name="ancho_indicador_navegacion">48dp</dimen>
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
-    <dimen name="bottom_navigation_height">84dp</dimen>
+    <dimen name="bottom_navigation_height">68dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -1834,8 +1841,11 @@
     <dimen name="radio_indicador">4dp</dimen>
     <dimen name="radio_pastilla">16dp</dimen>
     <dimen name="radio_tarjeta">12dp</dimen>
+    <dimen name="radio_tarjeta_perfil">16dp</dimen>
     <dimen name="sliding_pane_detail_pane_width">300dp</dimen>
+    <dimen name="tamano_foto_perfil">132dp</dimen>
     <dimen name="tamano_icono_ayuda">104dp</dimen>
+    <dimen name="tamano_icono_dato_perfil">44dp</dimen>
     <dimen name="tamano_icono_informacion">16dp</dimen>
     <dimen name="tamano_icono_navegacion">20dp</dimen>
     <dimen name="tamano_marca_aplicacion">36dp</dimen>
@@ -2092,9 +2102,11 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accion_cambiar_foto_perfil">Cambiar foto de perfil</string>
     <string name="accion_consejo_anterior">Consejo anterior</string>
     <string name="accion_consejo_siguiente">Consejo siguiente</string>
     <string name="accion_escanear_qr">Escanear código QR</string>
+    <string name="accion_volver_inicio">Ir a Inicio</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">RiesgoRA</string>
     <string name="app_version" translatable="false">null</string>
@@ -2121,6 +2133,7 @@
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="define_zxingandroidembedded" translatable="false"/>
     <string name="descripcion_carrusel">Consejos de prevención y preparación ante emergencias.</string>
+    <string name="descripcion_foto_perfil">Foto de perfil</string>
     <string name="descripcion_imagen_ayuda">Ilustración: %1$s</string>
     <string name="descripcion_informacion">Información</string>
     <string name="descripcion_marca">Escudo de Aula Segura</string>
@@ -2291,7 +2304,7 @@
     <string name="navigation_inicio">Inicio</string>
     <string name="navigation_perfil">Perfil</string>
     <string name="navigation_riesgos">Riesgos</string>
-    <string name="navigation_ruta_segura">Ruta segura</string>
+    <string name="navigation_ruta_segura">Rutas Seguras</string>
     <string name="navigation_simulacros">Simulacros</string>
     <string name="nombre_usuario_predeterminado">Usuario</string>
     <string name="password_toggle_content_description">Show password</string>
@@ -2299,11 +2312,13 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="perfil_apellido">Apellido</string>
-    <string name="perfil_aviso_demostracion">Perfil de demostración. Los datos son ficticios y no corresponden a tu cuenta.</string>
-    <string name="perfil_descripcion">Información del perfil</string>
-    <string name="perfil_nombre">Nombre</string>
-    <string name="perfil_titulo">Mi perfil</string>
+    <string name="perfil_cerrar_sesion">Cerrar sesión</string>
+    <string name="perfil_correo">Correo electrónico</string>
+    <string name="perfil_descripcion">Descripción</string>
+    <string name="perfil_frase">Apasionada por la tecnología, el aprendizaje continuo y el desarrollo de soluciones innovadoras.</string>
+    <string name="perfil_info_titulo">Información personal</string>
+    <string name="perfil_nombres_completos">Nombres completos</string>
+    <string name="perfil_titulo">Perfil</string>
     <string name="saludo_inicio">¡Hola, %1$s!</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
@@ -9372,7 +9387,7 @@
 
         <item name="android:width">@dimen/ancho_indicador_navegacion</item>
         <item name="android:height">@dimen/alto_indicador_navegacion</item>
-        <item name="android:color">@color/color_secondary</item>
+        <item name="android:color">@color/color_primary</item>
 
     </style>
     <style name="widget_riesgos_ra_bottom_navigation_view" parent="Widget.Material3.BottomNavigationView">
