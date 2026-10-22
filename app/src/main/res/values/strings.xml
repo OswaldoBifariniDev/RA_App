@@ -20,7 +20,7 @@
     <string name="navigation_inicio">Inicio</string>
     <string name="navigation_riesgos">Riesgos</string>
     <string name="navigation_simulacros">Simulacros</string>
-    <string name="navigation_ruta_segura">Ruta segura</string>
+    <string name="navigation_ruta_segura">Rutas Seguras</string>
     <string name="navigation_perfil">Perfil</string>
     <string name="descripcion_marca">Escudo de Aula Segura</string>
     <string name="titulo_aplicacion">Aula Segura</string>

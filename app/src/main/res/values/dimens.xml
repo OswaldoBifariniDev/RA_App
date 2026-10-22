@@ -31,6 +31,10 @@
 
     <dimen name="alto_control_accesible">48dp</dimen>
     <dimen name="alto_encabezado_aplicacion">64dp</dimen>
+    <dimen name="alto_encabezado_perfil">56dp</dimen>
+    <dimen name="alto_boton_perfil">50dp</dimen>
+    <dimen name="alto_encabezado_info_perfil">40dp</dimen>
+    <dimen name="tamano_icono_dato_perfil">44dp</dimen>
     <dimen name="tamano_marca_aplicacion">36dp</dimen>
     <dimen name="alto_estado_conexion">32dp</dimen>
     <dimen name="alto_bienvenida">88dp</dimen>
@@ -55,8 +59,12 @@
     <dimen name="tamano_vector_ilustracion">72dp</dimen>
     <dimen name="tamano_vector_lanzador">108dp</dimen>
 
-    <dimen name="bottom_navigation_height">84dp</dimen>
+    <dimen name="bottom_navigation_height">68dp</dimen>
     <dimen name="indicador_carrusel_normal">8dp</dimen>
     <dimen name="indicador_carrusel_seleccionado">20dp</dimen>
 
+    <dimen name="alto_portada_perfil">120dp</dimen>
+    <dimen name="alto_marco_foto_perfil">136dp</dimen>
+    <dimen name="tamano_foto_perfil">132dp</dimen>
+    <dimen name="radio_tarjeta_perfil">16dp</dimen>
 </resources>
