@@ -3,10 +3,10 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:color="@color/color_primary"
+        android:color="@color/color_navigation_selected"
         android:state_checked="true" />
 
     <item
-        android:color="@color/color_text_secondary" />
+        android:color="@color/color_navigation_unselected" />
 
 </selector>
