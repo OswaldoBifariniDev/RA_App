@@ -37,6 +37,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="@dimen/espaciado_grande"
             android:hint="@string/hint_nombre"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="textPersonName"
             android:layout_marginBottom="@dimen/espaciado_grande"/>
 
@@ -55,6 +57,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="@dimen/espaciado_grande"
             android:hint="@string/hint_identificacion"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="number"
             android:layout_marginBottom="@dimen/espaciado_grande"/>
 
@@ -73,6 +77,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="@dimen/espaciado_grande"
             android:hint="@string/hint_correo"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="textEmailAddress"
             android:layout_marginBottom="@dimen/espaciado_grande"/>
 
@@ -91,6 +97,8 @@
             android:background="@drawable/bg_textfield"
             android:paddingHorizontal="@dimen/espaciado_grande"
             android:hint="@string/hint_contrasena_registro"
+            android:textColor="@color/color_texto_principal"
+            android:textColorHint="@color/color_texto_secundario"
             android:inputType="textPassword"
             android:layout_marginBottom="@dimen/espaciado_extra_grande"/>
 

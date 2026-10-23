@@ -145,7 +145,7 @@
                     android:contentDescription="@string/accion_consejo_anterior"
                     android:padding="@dimen/espaciado_medio"
                     android:src="@drawable/ic_flecha_izquierda"
-                    android:tint="@color/color_primary" />
+                    app:tint="@color/color_primary" />
 
                 <View
                     android:layout_width="@dimen/indicador_carrusel_seleccionado"
@@ -173,7 +173,7 @@
                     android:contentDescription="@string/accion_consejo_siguiente"
                     android:padding="@dimen/espaciado_medio"
                     android:src="@drawable/ic_flecha_derecha"
-                    android:tint="@color/color_primary" />
+                    app:tint="@color/color_primary" />
             </LinearLayout>
 
             <com.google.android.material.button.MaterialButton

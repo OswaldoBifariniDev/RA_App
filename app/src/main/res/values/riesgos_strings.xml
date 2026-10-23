@@ -1,0 +1,16 @@
+<resources>
+    <string name="riesgos_titulo">Riesgos</string>
+    <string name="riesgos_instruccion">Selecciona un riesgo para ver su información.</string>
+    <string name="riesgos_registrados">Información registrada de los riesgos</string>
+    <string name="riesgos_informacion_titulo">Información del riesgo</string>
+    <string name="riesgos_informacion">Información</string>
+    <string name="riesgos_consultar">Consultar información de %1$s</string>
+    <string name="riesgos_analisis">Análisis del riesgo</string>
+    <string name="riesgos_plan_accion">Plan de acción</string>
+    <string name="riesgos_consejos">Consejos para estudiantes</string>
+    <string name="riesgos_volver">Volver a la pantalla anterior</string>
+    <string name="riesgos_cargando">Cargando información registrada…</string>
+    <string name="riesgos_error_conexion">Sin conexión. No se pudo cargar la información registrada. Revisa la conexión y vuelve a intentar.</string>
+    <string name="riesgos_vacio">No hay riesgos registrados disponibles.</string>
+    <string name="riesgos_reintentar">Volver a cargar</string>
+</resources>

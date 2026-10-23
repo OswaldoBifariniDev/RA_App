@@ -1,6 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_fondo"
+    android:theme="@style/tema_riesgos">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/espaciado_8"
+        android:gravity="center_vertical"
+        android:background="@color/color_superficie"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_riesgos_volver"
+            android:layout_width="@dimen/alto_control_accesible"
+            android:layout_height="@dimen/alto_control_accesible"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_riesgos_volver"
+            android:contentDescription="@string/riesgos_volver"
+            app:tint="@color/color_principal" />
+        <TextView
+            android:id="@+id/txt_riesgos_titulo"
+            style="@style/riesgos_titulo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/espaciado_8"
+            android:text="@string/riesgos_titulo" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_riesgos_instruccion"
+        style="@style/riesgos_texto"
+        android:paddingStart="@dimen/espaciado_16"
+        android:paddingEnd="@dimen/espaciado_16"
+        android:paddingBottom="@dimen/espaciado_16"
+        android:background="@color/color_superficie"
+        android:textColor="@color/color_texto_secundario"
+        android:text="@string/riesgos_instruccion" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progreso_riesgos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorColor="@color/color_principal"
+        app:trackColor="@color/color_secondary" />
+    <LinearLayout
+        android:id="@+id/layout_riesgos_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/espaciado_16"
+        android:background="@color/color_secondary"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/txt_riesgos_estado"
+            style="@style/riesgos_texto"
+            android:accessibilityLiveRegion="polite" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_riesgos_reintentar"
+            style="@style/riesgos_boton_secundario"
+            android:layout_marginTop="@dimen/espaciado_12"
+            android:text="@string/riesgos_reintentar"
+            android:visibility="gone" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_riesgos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/espaciado_16">
+            <TextView
+                style="@style/riesgos_texto"
+                android:textSize="12sp"
+                android:textColor="@color/color_texto_secundario"
+                android:layout_marginBottom="@dimen/espaciado_12"
+                android:text="@string/riesgos_registrados" />
+            <LinearLayout
+                android:id="@+id/layout_riesgos_contenido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

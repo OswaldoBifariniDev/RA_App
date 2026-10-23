@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/riesgos_tarjeta">
+    <TextView
+        android:id="@+id/txt_riesgo_contenido"
+        style="@style/riesgos_texto"
+        android:padding="@dimen/espaciado_16"
+        android:textIsSelectable="true" />
+</com.google.android.material.card.MaterialCardView>
