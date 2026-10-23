@@ -1,7 +1,6 @@
 package com.riesgosra.app.login.view.main
 
 import android.os.Bundle
-import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -32,27 +31,9 @@ class MainActivity : AppCompatActivity(), NavegacionRiesgos {
             isAppearanceLightNavigationBars = true
         }
 
-        WindowCompat.getInsetsController(window, window.decorView).apply {
-            isAppearanceLightStatusBars = false
-            isAppearanceLightNavigationBars = true
-        }
-
-        val fondoBarraNavegacionSistema = findViewById<View>(R.id.navigation_bar_background)
-
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { vista, insets ->
             val barrasSistema = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            vista.setPadding(
-                barrasSistema.left,
-                barrasSistema.top,
-                barrasSistema.right,
-                barrasSistema.bottom
-            )
-
-            fondoBarraNavegacionSistema.layoutParams =
-                fondoBarraNavegacionSistema.layoutParams.apply {
-                    height = barrasSistema.bottom
-                }
-            fondoBarraNavegacionSistema.translationY = barrasSistema.bottom.toFloat()
+            vista.setPadding(barrasSistema.left, barrasSistema.top, barrasSistema.right, barrasSistema.bottom)
             insets
         }
 
