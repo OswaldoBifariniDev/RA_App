@@ -12,7 +12,7 @@ class ApiService {
     companion object {
         // URL configurada para el teléfono físico y la red local verificada.
         // Para usar el emulador Android, cambia la IP por 10.0.2.2.
-        private const val BASE_URL = "http://192.168.137.245/riesgos_ra_api/"
+        private const val BASE_URL = "http://192.168.100.7/riesgos_ra_api_postgresql/"
         private const val URL_LOGIN = "${BASE_URL}login.php"
         private const val URL_RUTA_PROTEGIDA = "${BASE_URL}ruta_protegida.php"
     }
