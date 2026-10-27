@@ -1,0 +1,12 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/riesgos_tarjeta">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <TextView android:id="@+id/txt_consejo_estudiante" style="@style/riesgos_texto"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="3dp" android:textIsSelectable="true" />
+        <ImageView android:id="@+id/img_consejo_estudiante" android:layout_width="match_parent"
+            android:layout_height="240dp" android:layout_marginTop="12dp"
+            android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

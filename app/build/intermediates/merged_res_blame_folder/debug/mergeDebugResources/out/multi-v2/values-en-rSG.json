@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.riesgosra.app-mergeDebugResources-51:/values-en-rSG/values-en-rSG.xml",
+            "outputFile": "com.riesgosra.app-mergeDebugResources-2:/values-en-rSG/values-en-rSG.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\asus\\.gradle\\caches\\8.14.5\\transforms\\053232f842afd8b53e524677f941a842\\transformed\\core-1.41.0\\res\\values-en-rSG\\values.xml",
+                    "source": "C:\\Users\\Public\\RA_GradleCache\\caches\\8.14.5\\transforms\\22f248102e6d032b702fb5a7b99878ea\\transformed\\core-1.41.0\\res\\values-en-rSG\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",

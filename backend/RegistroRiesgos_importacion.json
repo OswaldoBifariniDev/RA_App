@@ -1,0 +1,14 @@
+{
+  "source": "C:\\Users\\USERÇ\\Documents\\PAO5_6\\Practicas_Comunitarias\\Proyecto_Vinculacion\\RegistroRiesgos.sql",
+  "sha256": "064bc1e023b7335c192847c20e5b6624a5194a2233b9dfcb34e89bf71d5053b2",
+  "database": "registro_riesgos",
+  "catalog_table": "public.informacion_riesgos",
+  "counts": {
+    "informacion_riesgos": 3,
+    "riesgos": 3,
+    "preguntas": 9,
+    "resultados": 0
+  },
+  "previous_database_preserved": "riesgos_ra",
+  "adaptation": "Removed ownership and web_anon GRANT statements only."
+}

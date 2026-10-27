@@ -1,0 +1,55 @@
+RiesgosRA - API PHP PostgreSQL para pruebas
+===========================================
+
+CONTENIDO
+Esta copia limpia mantiene los endpoints y clases de la API comprobada con PostgreSQL. Se excluyeron diagnostico_login.php y prueba_postgres.php, porque fueron herramientas temporales de diagnostico. Se conserva prueba_conexion.php para verificar la conexion local.
+
+REQUISITOS
+- XAMPP con Apache y PHP.
+- Extension PDO PostgreSQL activa en PHP (pdo_pgsql).
+- PostgreSQL instalado/activo y una base llamada riesgos_ra.
+- Tablas public.roles, public.permisos, public.roles_permisos, public.usuarios y public.sesiones creadas.
+
+INSTALACION EN WINDOWS
+1. Descomprime la carpeta riesgos_ra_api_postgresql dentro de C:\xampp\htdocs\.
+2. Dentro de config, copia database.php.example y renombra la copia como database.php.
+3. Edita database.php con la direccion, puerto, base, usuario y contrasena PostgreSQL de tu equipo.
+   - En el equipo de Jostin la conexion usada por DBeaver se verifico en el puerto 8082.
+   - El puerto predeterminado habitual de PostgreSQL puede ser 5432; utiliza el puerto donde realmente escucha TU servidor.
+   - Para que PHP en la misma PC se conecte a PostgreSQL, host suele ser 127.0.0.1.
+4. Inicia Apache en XAMPP y PostgreSQL.
+5. Abre http://localhost/riesgos_ra_api_postgresql/prueba_conexion.php. Debe mostrar CONEXION CORRECTA.
+
+BASE DE DATOS DE PRUEBA
+Para crear una base desde cero usa los scripts que vienen al nivel superior de este paquete:
+- 00_CREAR_BASE_DE_DATOS.sql (solo si la base aun no existe; con DBeaver, conectado a postgres);
+- 01_ESTRUCTURA_POSTGRESQL.sql;
+- 02_DATOS_DEMO_MINIMOS.sql solo en una base de pruebas nueva;
+- 03_VERIFICAR_TABLAS_Y_RELACIONES.sql para revisar el resultado.
+No ejecutes el seed demo en la base oficial ni encima de una base importada sin revisarlo.
+
+ENDPOINTS
+- POST /login.php : recibe JSON con identificadorUsuario y contrasena. Devuelve autenticado, mensaje, token y usuario.
+- GET /ruta_protegida.php : requiere cabecera Authorization: Bearer <token>.
+- GET /ruta_crear.php : requiere sesion valida y permiso crear_ruta.
+- GET /prueba_conexion.php : comprobacion local de conexion; retirarlo/bloquearlo al publicar una API en un servidor compartido de produccion.
+
+PRUEBA DESDE POWERSHELL
+Ajusta la URL si el nombre de carpeta es diferente. Usa solo credenciales de prueba:
+$b=@{identificadorUsuario='jostin_prueba@riesgosra.local';contrasena='Prueba123!'}|ConvertTo-Json -Compress
+$l=Invoke-RestMethod -Uri 'http://localhost/riesgos_ra_api_postgresql/login.php' -Method POST -ContentType 'application/json; charset=utf-8' -Body $b
+$l | Select-Object autenticado,mensaje,usuario
+Luego, con el token de la respuesta en memoria, se puede llamar la ruta protegida usando Authorization: Bearer <token>. No publiques ni pegues el valor del token en chats o repositorios.
+
+ANDROID / TELEFONO FISICO
+- BASE_URL debe apuntar a la IP LAN de la PC que ejecuta Apache, por ejemplo http://IP-DE-LA-PC/riesgos_ra_api_postgresql/.
+- El telefono y la PC deben poder comunicarse por la misma red y el firewall debe permitir HTTP/Apache.
+- localhost desde el telefono se refiere al propio telefono, no a la PC.
+- La IP 192.168.100.7 que uso Jostin es local y puede cambiar; no es un servidor publico. Otros integrantes pueden usar su propia PC o una API desplegada en servidor compartido.
+
+SEGURIDAD Y ALCANCE
+- No compartir database.php con credenciales reales. El .gitignore excluye ese archivo local.
+- El seed de demo usa usuario jostin_prueba@riesgosra.local y contrasena Prueba123!. Cambiala y elimina la cuenta antes de cualquier uso real.
+- El ejemplo usa el usuario postgres para facilitar pruebas locales, pero es administrador de base de datos. No usar esa cuenta como cuenta de aplicacion en un despliegue real.
+- Esta carpeta es API para pruebas/integracion, no un despliegue publico configurado. Antes de produccion: usuario SQL con privilegios minimos, HTTPS, configuracion privada, bloquear pruebas de conexion, validar CORS/red y revisar permisos.
+- La API se probo en la PC original. En cada PC nueva hay que configurar database.php y verificar la conexion antes de probar login.

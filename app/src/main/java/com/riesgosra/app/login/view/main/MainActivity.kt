@@ -11,7 +11,7 @@ import com.riesgosra.app.fragment.InicioFragment
 import com.riesgosra.app.fragment.PerfilFragment
 import com.riesgosra.app.fragment.RiesgosFragment
 import com.riesgosra.app.fragment.RutaSeguraFragment
-import com.riesgosra.app.fragment.SimulacrosFragment
+import com.riesgosra.app.fragment.AnalisisRiesgosFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.riesgosra.app.R
 import com.riesgosra.app.riesgos.view.NavegacionRiesgos
@@ -41,6 +41,15 @@ class MainActivity : AppCompatActivity(), NavegacionRiesgos {
         destinoActual = savedInstanceState?.getInt(CLAVE_DESTINO_ACTUAL) ?: R.id.navigation_inicio
         destinoAnteriorRiesgos = savedInstanceState?.getInt(CLAVE_DESTINO_ANTERIOR) ?: R.id.navigation_inicio
         configurarNavegacion()
+        val itemAnalisis = navegacionInferior.findViewById<android.view.View>(R.id.navigation_simulacros)
+        listOf(com.google.android.material.R.id.navigation_bar_item_small_label_view,
+            com.google.android.material.R.id.navigation_bar_item_large_label_view).forEach { id ->
+            itemAnalisis?.findViewById<android.widget.TextView>(id)?.apply {
+                isSingleLine = false
+                maxLines = 2
+                gravity = android.view.Gravity.CENTER
+            }
+        }
 
         if (savedInstanceState == null) {
             navegacionInferior.selectedItemId = R.id.navigation_inicio
@@ -82,7 +91,7 @@ class MainActivity : AppCompatActivity(), NavegacionRiesgos {
         return when (menuItemId) {
             R.id.navigation_inicio -> InicioFragment()
             R.id.navigation_riesgos -> RiesgosFragment()
-            R.id.navigation_simulacros -> SimulacrosFragment()
+            R.id.navigation_simulacros -> AnalisisRiesgosFragment()
             R.id.navigation_ruta_segura -> RutaSeguraFragment()
             R.id.navigation_perfil -> PerfilFragment()
             else -> null

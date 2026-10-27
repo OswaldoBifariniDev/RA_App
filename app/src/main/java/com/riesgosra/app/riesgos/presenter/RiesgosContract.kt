@@ -9,6 +9,6 @@ interface RiesgosContract {
         fun mostrarRiesgos(riesgos: List<Riesgo>)
         fun mostrarTemas(riesgo: Riesgo)
         fun mostrarInformacion(riesgo: Riesgo, tema: TemaRiesgo, informacion: String)
-        fun mostrarError()
+        fun mostrarError(mensaje: String)
     }
 }

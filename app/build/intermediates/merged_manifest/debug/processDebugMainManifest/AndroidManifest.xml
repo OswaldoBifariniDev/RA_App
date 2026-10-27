@@ -53,6 +53,7 @@
         android:required="false" />
 
     <application
+        android:name="com.example.ra_app.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -63,7 +64,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.RA_App"
         android:usesCleartextTraffic="true" >
         <activity
@@ -83,6 +83,23 @@
         <activity
             android:name="com.riesgosra.app.login.view.main.MainActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.ra_app.ui.risk.RiskCaptureActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RA_App" />
+        <activity
+            android:name="com.example.ra_app.ui.risk.RiskResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RA_App" />
+
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+        </service>
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -1,0 +1,34 @@
+<?php
+
+declare(strict_types=1);
+
+/*
+ * Configuracion local de la API PostgreSQL.
+ * Copia este archivo como database.php y modifica los datos de TU equipo.
+ * No subas database.php con contrasenas reales a GitHub.
+ */
+$host = '127.0.0.1';
+$port = '8082'; // En el PC de Jostin se verifico 8082; muchos PostgreSQL usan 5432.
+$databaseName = 'riesgos_ra';
+$userName = 'postgres'; // Solo para pruebas locales; no es recomendado en produccion.
+$password = 'CAMBIAR_POR_LA_CONTRASENA_LOCAL';
+
+try {
+    $dsn = "pgsql:host={$host};port={$port};dbname={$databaseName}";
+    $connection = new PDO($dsn, $userName, $password, [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        PDO::ATTR_EMULATE_PREPARES => false,
+    ]);
+} catch (PDOException $error) {
+    error_log('Error de conexion con PostgreSQL: ' . $error->getMessage());
+    http_response_code(500);
+    if (!headers_sent()) {
+        header('Content-Type: application/json; charset=utf-8');
+    }
+    echo json_encode([
+        'error' => true,
+        'mensaje' => 'No fue posible conectar con la base de datos. Revise la configuracion local.'
+    ], JSON_UNESCAPED_UNICODE);
+    exit;
+}

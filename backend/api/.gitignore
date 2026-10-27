@@ -1,0 +1,5 @@
+# Configuracion local con credenciales
+/config/database.php
+# Diagnosticos locales temporales
+/diagnostico_login.php
+*.log

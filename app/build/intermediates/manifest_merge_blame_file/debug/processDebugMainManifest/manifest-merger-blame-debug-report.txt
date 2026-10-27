@@ -9,272 +9,305 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:5:5-65
-11-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:5:22-62
+11-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:5:22-62
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:6:22-64
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:7:5-79
-13-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:7:22-76
+13-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:7:22-76
 14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-14-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:8:5-81
-14-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:8:22-78
+14-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:8:22-78
 15
 16    <uses-feature
-16-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:10:5-12:35
+16-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:10:5-12:35
 17        android:name="android.hardware.camera.ar"
-17-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:11:9-50
+17-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:11:9-50
 18        android:required="true" />
-18-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:12:9-32
+18-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:12:9-32
 19    <uses-feature
-19-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:13:5-15:36
+19-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:13:5-15:36
 20        android:name="android.hardware.camera"
-20-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:14:9-47
+20-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:14:9-47
 21        android:required="false" />
-21-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:15:9-33
+21-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:15:9-33
 22
 23    <permission
-23-->[androidx.core:core:1.10.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\d70990c060753ec3bf45b5175f056d04\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+23-->[androidx.core:core:1.10.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7b410ce02a5a7c964c321e866b21be92\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
 24        android:name="com.example.ra_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-24-->[androidx.core:core:1.10.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\d70990c060753ec3bf45b5175f056d04\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+24-->[androidx.core:core:1.10.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7b410ce02a5a7c964c321e866b21be92\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
 25        android:protectionLevel="signature" />
-25-->[androidx.core:core:1.10.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\d70990c060753ec3bf45b5175f056d04\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+25-->[androidx.core:core:1.10.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7b410ce02a5a7c964c321e866b21be92\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
 26
 27    <uses-permission android:name="com.example.ra_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-27-->[androidx.core:core:1.10.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\d70990c060753ec3bf45b5175f056d04\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
-27-->[androidx.core:core:1.10.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\d70990c060753ec3bf45b5175f056d04\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+27-->[androidx.core:core:1.10.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7b410ce02a5a7c964c321e866b21be92\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.10.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7b410ce02a5a7c964c321e866b21be92\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
 28
 29    <queries>
-29-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:20:5-27:15
+29-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:20:5-27:15
 30        <package android:name="com.google.ar.core" />
-30-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:21:9-54
-30-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:21:18-51
+30-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:21:9-54
+30-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:21:18-51
 31        <package android:name="com.android.vending" />
-31-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:22:9-55
-31-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:22:18-52
+31-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:22:9-55
+31-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:22:18-52
 32
 33        <intent>
-33-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:24:9-26:18
+33-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:24:9-26:18
 34            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
-34-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:25:13-96
-34-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:25:21-93
+34-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:25:13-96
+34-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:25:21-93
 35        </intent>
 36    </queries>
 37
 38    <uses-feature
-38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
 39        android:name="android.hardware.camera.front"
-39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
 40        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
 41    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 42    <uses-feature
-42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
 43        android:name="android.hardware.camera.autofocus"
-43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
 44        android:required="false" />
-44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
 45    <uses-feature
-45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
 46        android:name="android.hardware.camera.flash"
-46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
 47        android:required="false" />
-47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
 48    <uses-feature
-48-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
 49        android:name="android.hardware.screen.landscape"
-49-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
 50        android:required="false" />
-50-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
 51    <uses-feature
-51-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
 52        android:name="android.hardware.wifi"
-52-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
 53        android:required="false" />
-53-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
 54
 55    <application
-55-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:17:5-48:19
-56        android:allowBackup="true"
-56-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:18:9-35
-57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-57-->[androidx.core:core:1.10.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\d70990c060753ec3bf45b5175f056d04\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
-58        android:dataExtractionRules="@xml/data_extraction_rules"
-58-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:19:9-65
-59        android:debuggable="true"
-60        android:extractNativeLibs="false"
-61        android:fullBackupContent="@xml/backup_rules"
-61-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:20:9-54
-62        android:icon="@mipmap/ic_launcher"
-62-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:21:9-43
-63        android:label="@string/app_name"
-63-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:22:9-41
-64        android:roundIcon="@mipmap/ic_launcher_round"
-64-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:23:9-54
-65        android:supportsRtl="true"
-65-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:24:9-35
-66        android:testOnly="true"
+55-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:17:5-59:19
+56        android:name="com.example.ra_app.App"
+56-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:18:9-46
+57        android:allowBackup="true"
+57-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:19:9-35
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.10.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7b410ce02a5a7c964c321e866b21be92\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+59        android:dataExtractionRules="@xml/data_extraction_rules"
+59-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:20:9-65
+60        android:debuggable="true"
+61        android:extractNativeLibs="false"
+62        android:fullBackupContent="@xml/backup_rules"
+62-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:21:9-54
+63        android:icon="@mipmap/ic_launcher"
+63-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:22:9-43
+64        android:label="@string/app_name"
+64-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:23:9-41
+65        android:roundIcon="@mipmap/ic_launcher_round"
+65-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:24:9-54
+66        android:supportsRtl="true"
+66-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:25:9-35
 67        android:theme="@style/Theme.RA_App"
-67-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:25:9-44
+67-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:26:9-44
 68        android:usesCleartextTraffic="true" >
-68-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:26:9-44
+68-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:27:9-44
 69        <activity
-69-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:29:9-38:20
+69-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:30:9-39:20
 70            android:name="com.riesgosra.app.login.view.login.LoginActivity"
-70-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:30:13-76
+70-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:31:13-76
 71            android:exported="true"
-71-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:31:13-36
+71-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:32:13-36
 72            android:theme="@style/Theme.RA_App.Login"
-72-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:32:13-54
+72-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:33:13-54
 73            android:windowSoftInputMode="adjustResize" >
-73-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:33:13-55
+73-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:34:13-55
 74            <intent-filter>
-74-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:34:13-37:29
+74-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:35:13-38:29
 75                <action android:name="android.intent.action.MAIN" />
-75-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:35:17-69
-75-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:35:25-66
+75-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:36:17-69
+75-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:36:25-66
 76
 77                <category android:name="android.intent.category.LAUNCHER" />
-77-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:36:17-77
-77-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:36:27-74
+77-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:37:17-77
+77-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:37:27-74
 78            </intent-filter>
 79        </activity>
 80        <activity
-80-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:40:9-42:40
+80-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:41:9-43:40
 81            android:name="com.riesgosra.app.login.view.auth.RegistroActivity"
-81-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:41:13-78
+81-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:42:13-78
 82            android:exported="false" />
-82-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:42:13-37
+82-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:43:13-37
 83        <activity
-83-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:44:9-46:40
+83-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:45:9-47:40
 84            android:name="com.riesgosra.app.login.view.main.MainActivity"
-84-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:45:13-74
+84-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:46:13-74
 85            android:exported="false" />
-85-->C:\Users\asus\Desktop\Vinculacion JOSUE\RA_App\app\src\main\AndroidManifest.xml:46:13-37
-86
-87        <provider
-87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\94d0d148883d6a85631651c0f9fad2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-88            android:name="androidx.startup.InitializationProvider"
-88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\94d0d148883d6a85631651c0f9fad2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-89            android:authorities="com.example.ra_app.androidx-startup"
-89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\94d0d148883d6a85631651c0f9fad2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-90            android:exported="false" >
-90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\94d0d148883d6a85631651c0f9fad2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-91            <meta-data
-91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\94d0d148883d6a85631651c0f9fad2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\94d0d148883d6a85631651c0f9fad2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-93                android:value="androidx.startup" />
-93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\94d0d148883d6a85631651c0f9fad2b5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-94            <meta-data
-94-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\asus\.gradle\caches\8.14.5\transforms\b2fcde68f4e2f717bcc4c8efc00b78c4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-95-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\asus\.gradle\caches\8.14.5\transforms\b2fcde68f4e2f717bcc4c8efc00b78c4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-96                android:value="androidx.startup" />
-96-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\asus\.gradle\caches\8.14.5\transforms\b2fcde68f4e2f717bcc4c8efc00b78c4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-97            <meta-data
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-98                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-99                android:value="androidx.startup" />
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-100        </provider>
-101
-102        <uses-library
-102-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3b7b14108323fa4979e26ba92296378a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-103            android:name="androidx.window.extensions"
-103-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3b7b14108323fa4979e26ba92296378a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-104            android:required="false" />
-104-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3b7b14108323fa4979e26ba92296378a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-105        <uses-library
-105-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3b7b14108323fa4979e26ba92296378a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-106            android:name="androidx.window.sidecar"
-106-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3b7b14108323fa4979e26ba92296378a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-107            android:required="false" />
-107-->[androidx.window:window:1.0.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3b7b14108323fa4979e26ba92296378a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-108
-109        <service
-109-->[androidx.room:room-runtime:2.6.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\25c8fdc71ddc953c4af70d7691e68c68\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-110            android:name="androidx.room.MultiInstanceInvalidationService"
-110-->[androidx.room:room-runtime:2.6.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\25c8fdc71ddc953c4af70d7691e68c68\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-111            android:directBootAware="true"
-111-->[androidx.room:room-runtime:2.6.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\25c8fdc71ddc953c4af70d7691e68c68\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-112            android:exported="false" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
-112-->[androidx.room:room-runtime:2.6.1] C:\Users\asus\.gradle\caches\8.14.5\transforms\25c8fdc71ddc953c4af70d7691e68c68\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-113        <meta-data
-113-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:32:9-34:41
-114            android:name="com.google.ar.core.min_apk_version"
-114-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:33:13-62
-115            android:value="232620000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
-115-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:34:13-38
-116        <activity
-116-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:36:9-42:80
-117            android:name="com.google.ar.core.InstallActivity"
-117-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:37:13-62
-118            android:configChanges="keyboardHidden|orientation|screenSize"
-118-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:38:13-74
-119            android:excludeFromRecents="true"
-119-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:39:13-46
-120            android:exported="false"
-120-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:40:13-37
-121            android:launchMode="singleTop"
-121-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:41:13-43
-122            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-122-->[com.google.ar:core:1.41.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\053232f842afd8b53e524677f941a842\transformed\core-1.41.0\AndroidManifest.xml:42:13-77
-123
-124        <receiver
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-125            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-126            android:directBootAware="false"
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-127            android:enabled="true"
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-128            android:exported="true"
-128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-129            android:permission="android.permission.DUMP" >
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-130            <intent-filter>
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-131                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-132            </intent-filter>
-133            <intent-filter>
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-134                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-135            </intent-filter>
-136            <intent-filter>
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-137                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-138            </intent-filter>
-139            <intent-filter>
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-140                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\5d39b4991febc21de52ad56d86036eb7\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-141            </intent-filter>
-142        </receiver>
-143
-144        <activity
-144-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
-145            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-145-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
-146            android:clearTaskOnLaunch="true"
-146-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
-147            android:screenOrientation="sensorLandscape"
-147-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
-148            android:stateNotNeeded="true"
-148-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
-149            android:theme="@style/zxing_CaptureTheme"
-149-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
-150            android:windowSoftInputMode="stateAlwaysHidden" />
-150-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\asus\.gradle\caches\8.14.5\transforms\3c3563fb0d2a073b4aa368543dd3640c\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
-151    </application>
-152
-153</manifest>
+85-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:47:13-37
+86        <activity
+86-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:49:9-52:51
+87            android:name="com.example.ra_app.ui.risk.RiskCaptureActivity"
+87-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:50:13-74
+88            android:exported="false"
+88-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:51:13-37
+89            android:theme="@style/Theme.RA_App" />
+89-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:52:13-48
+90        <activity
+90-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:54:9-57:51
+91            android:name="com.example.ra_app.ui.risk.RiskResultActivity"
+91-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:55:13-73
+92            android:exported="false"
+92-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:56:13-37
+93            android:theme="@style/Theme.RA_App" />
+93-->C:\Users\Public\RA_AndroidProject\app\src\main\AndroidManifest.xml:57:13-48
+94
+95        <service
+95-->[androidx.camera:camera-camera2:1.3.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7f8cbfe15bba3f1c076ae81a431d9ac2\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+96            android:name="androidx.camera.core.impl.MetadataHolderService"
+96-->[androidx.camera:camera-camera2:1.3.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7f8cbfe15bba3f1c076ae81a431d9ac2\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+97            android:enabled="false"
+97-->[androidx.camera:camera-camera2:1.3.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7f8cbfe15bba3f1c076ae81a431d9ac2\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+98            android:exported="false" >
+98-->[androidx.camera:camera-camera2:1.3.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7f8cbfe15bba3f1c076ae81a431d9ac2\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+99            <meta-data
+99-->[androidx.camera:camera-camera2:1.3.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7f8cbfe15bba3f1c076ae81a431d9ac2\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+100                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+100-->[androidx.camera:camera-camera2:1.3.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7f8cbfe15bba3f1c076ae81a431d9ac2\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+101                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+101-->[androidx.camera:camera-camera2:1.3.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7f8cbfe15bba3f1c076ae81a431d9ac2\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+102        </service>
+103
+104        <provider
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\be80ea25948ec2637467bb978308c89f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\be80ea25948ec2637467bb978308c89f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+106            android:authorities="com.example.ra_app.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\be80ea25948ec2637467bb978308c89f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\be80ea25948ec2637467bb978308c89f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\be80ea25948ec2637467bb978308c89f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\be80ea25948ec2637467bb978308c89f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\be80ea25948ec2637467bb978308c89f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\30bd39540a6b4eff3e1623bf53d1a615\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\30bd39540a6b4eff3e1623bf53d1a615\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\30bd39540a6b4eff3e1623bf53d1a615\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+114            <meta-data
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+116                android:value="androidx.startup" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+117        </provider>
+118
+119        <uses-library
+119-->[androidx.window:window:1.0.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\24979aea35bb134845a093f7d833aaf0\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+120            android:name="androidx.window.extensions"
+120-->[androidx.window:window:1.0.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\24979aea35bb134845a093f7d833aaf0\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\24979aea35bb134845a093f7d833aaf0\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+122        <uses-library
+122-->[androidx.window:window:1.0.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\24979aea35bb134845a093f7d833aaf0\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+123            android:name="androidx.window.sidecar"
+123-->[androidx.window:window:1.0.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\24979aea35bb134845a093f7d833aaf0\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\24979aea35bb134845a093f7d833aaf0\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+125
+126        <service
+126-->[androidx.room:room-runtime:2.6.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7c6c8de0b181cbcd5a5a40d04ea3d484\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+127            android:name="androidx.room.MultiInstanceInvalidationService"
+127-->[androidx.room:room-runtime:2.6.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7c6c8de0b181cbcd5a5a40d04ea3d484\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+128            android:directBootAware="true"
+128-->[androidx.room:room-runtime:2.6.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7c6c8de0b181cbcd5a5a40d04ea3d484\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+129            android:exported="false" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+129-->[androidx.room:room-runtime:2.6.1] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\7c6c8de0b181cbcd5a5a40d04ea3d484\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+130        <meta-data
+130-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:32:9-34:41
+131            android:name="com.google.ar.core.min_apk_version"
+131-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:33:13-62
+132            android:value="232620000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+132-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:34:13-38
+133        <activity
+133-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:36:9-42:80
+134            android:name="com.google.ar.core.InstallActivity"
+134-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:37:13-62
+135            android:configChanges="keyboardHidden|orientation|screenSize"
+135-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:38:13-74
+136            android:excludeFromRecents="true"
+136-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:39:13-46
+137            android:exported="false"
+137-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:40:13-37
+138            android:launchMode="singleTop"
+138-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:41:13-43
+139            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+139-->[com.google.ar:core:1.41.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\22f248102e6d032b702fb5a7b99878ea\transformed\core-1.41.0\AndroidManifest.xml:42:13-77
+140
+141        <receiver
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+142            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+143            android:directBootAware="false"
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+144            android:enabled="true"
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+145            android:exported="true"
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+146            android:permission="android.permission.DUMP" >
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+148                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+151                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+152            </intent-filter>
+153            <intent-filter>
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+154                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+155            </intent-filter>
+156            <intent-filter>
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+157                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+157-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\23debe442b1c2e5700da75e6d4dac126\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+158            </intent-filter>
+159        </receiver>
+160
+161        <activity
+161-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+162            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+162-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+163            android:clearTaskOnLaunch="true"
+163-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+164            android:screenOrientation="sensorLandscape"
+164-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+165            android:stateNotNeeded="true"
+165-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+166            android:theme="@style/zxing_CaptureTheme"
+166-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+167            android:windowSoftInputMode="stateAlwaysHidden" />
+167-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Public\RA_GradleCache\caches\8.14.5\transforms\2479b507db1052696bec4ac765890cc6\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+168    </application>
+169
+170</manifest>

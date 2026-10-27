@@ -29,4 +29,15 @@
     <color name="exito">#2C6858</color>
     <color name="advertencia">#C96B00</color>
     <color name="error">#D95B52</color>
+
+    <!-- Colores para categorías de riesgo -->
+    <color name="riesgo_electrico">#D32F2F</color>
+    <color name="riesgo_estructural">#E65100</color>
+    <color name="riesgo_quimico">#7B1FA2</color>
+    <color name="riesgo_obstruccion">#F57C00</color>
+    <color name="riesgo_sin_riesgo">#388E3C</color>
+    <color name="riesgo_incendio">#B45309</color>
+    <color name="riesgo_sismo">#6D4C93</color>
+    <color name="riesgo_inundacion">#0369A1</color>
+    <color name="riesgo_no_evaluable">#687B87</color>
 </resources>

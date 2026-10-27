@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.riesgosra.app-mergeDebugResources-51:/values-he/values-he.xml",
+            "outputFile": "com.riesgosra.app-mergeDebugResources-2:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\asus\\.gradle\\caches\\8.14.5\\transforms\\3c3563fb0d2a073b4aa368543dd3640c\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\Public\\RA_GradleCache\\caches\\8.14.5\\transforms\\2479b507db1052696bec4ac765890cc6\\transformed\\zxing-android-embedded-4.3.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\asus\\.gradle\\caches\\8.14.5\\transforms\\053232f842afd8b53e524677f941a842\\transformed\\core-1.41.0\\res\\values-he\\values.xml",
+                    "source": "C:\\Users\\Public\\RA_GradleCache\\caches\\8.14.5\\transforms\\22f248102e6d032b702fb5a7b99878ea\\transformed\\core-1.41.0\\res\\values-he\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "0,0,0,0,0",

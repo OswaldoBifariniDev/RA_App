@@ -25,9 +25,9 @@ class RiesgosPresenter(
             cargando = false
             riesgos = registros
             presentar()
-        }, {
+        }, { mensaje ->
             cargando = false
-            vista?.mostrarError()
+            vista?.mostrarError(mensaje)
         })
     }
 
@@ -40,7 +40,7 @@ class RiesgosPresenter(
 
     fun seleccionarTema(tema: TemaRiesgo) {
         if (idRiesgoSeleccionado == null) return
-        temaSeleccionado = tema
+        temaSeleccionado = if (temaSeleccionado == tema) null else tema
         presentar()
     }
 

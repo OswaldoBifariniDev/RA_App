@@ -19,12 +19,16 @@ import com.riesgosra.app.login.model.network.ApiService
 import com.riesgosra.app.login.presenter.LoginPresenter
 import com.riesgosra.app.login.presenter.LoginView
 import java.util.concurrent.Executor
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class LoginActivity : AppCompatActivity(), LoginView {
 
     private lateinit var inputIdentificador: TextInputLayout
     private lateinit var inputContrasena: TextInputLayout
 
+    @Inject lateinit var apiService: ApiService
     private lateinit var presenter: LoginPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,7 +55,7 @@ class LoginActivity : AppCompatActivity(), LoginView {
 
     private fun configurarPresenter() {
 
-        val apiService = ApiService()
+
 
         val sesionManager =
             SesionManager(this)

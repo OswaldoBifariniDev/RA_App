@@ -19,7 +19,7 @@
     <string name="error_registro_datos_incompletos">Error: Datos incompletos</string>
     <string name="navigation_inicio">Inicio</string>
     <string name="navigation_riesgos">Riesgos</string>
-    <string name="navigation_simulacros">Simulacros</string>
+    <string name="navigation_simulacros">Análisis de Riesgos</string>
     <string name="navigation_ruta_segura">Ruta segura</string>
     <string name="navigation_perfil">Perfil</string>
     <string name="descripcion_marca">Escudo de Aula Segura</string>
@@ -74,4 +74,26 @@
     <string name="error_contrasena_vacia">
         Ingrese su contraseña.
     </string>
+
+    <!-- Análisis de Riesgos -->
+    <string name="titulo_analisis_riesgos">Análisis de Riesgos por Foto</string>
+    <string name="btn_capturar_foto">Capturar Foto</string>
+    <string name="btn_elegir_galeria">Elegir de Galería</string>
+    <string name="btn_analizar_otra">Analizar Otra Foto</string>
+    <string name="btn_ver_historial">Historial</string>
+    <string name="txt_analizando_imagen">Analizando imagen con IA...</string>
+    <string name="txt_confianza">Nivel de confianza: %1$d%%</string>
+    <string name="banner_baja_confianza">Confianza baja, verifica manualmente</string>
+    <string name="titulo_sugerencias">Acciones Recomendadas</string>
+    <string name="titulo_historial">Historial de Riesgos</string>
+    <string name="permiso_camara_requerido">Se requiere permiso de cámara para tomar fotos de riesgos.</string>
+    <string name="btn_reintentar">Reintentar</string>
+    <string name="txt_sin_historial">No hay análisis registrados aún.</string>
+    <string name="riesgos_seccion_expandida">Expandido. Pulsa para contraer.</string>
+    <string name="riesgos_seccion_contraida">Contraído. Pulsa para expandir.</string>
+    <string name="analisis_descripcion">Toma una foto o elige una imagen para consultar sus riesgos y recomendaciones. También puedes revisar tus análisis anteriores.</string>
+    <string name="analisis_sin_configurar">El análisis de fotos necesita activar el servicio. El historial guardado sigue disponible.</string>
+    <string name="analisis_tomar_foto">Tomar foto y analizar</string>
+    <string name="analisis_clave_pendiente">Falta configurar la clave de Gemini en el computador y actualizar la app. No se ha analizado ni guardado esta foto.</string>
+    <string name="analisis_activar_titulo">Activar análisis de fotos</string>
 </resources>

@@ -59,6 +59,7 @@ class InicioFragment : Fragment(R.layout.fragment_inicio) {
         view.findViewById<View>(R.id.btn_escanear_qr).setOnClickListener {
             iniciarEscaneoQr()
         }
+
     }
 
     override fun onResume() {

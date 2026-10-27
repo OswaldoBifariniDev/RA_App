@@ -3,7 +3,11 @@ package com.riesgosra.app.riesgos.model
 import android.os.Handler
 import android.os.Looper
 import com.riesgosra.app.BuildConfig
-import org.json.JSONArray
+import com.google.gson.JsonParseException
+import java.net.ConnectException
+import java.net.SocketTimeoutException
+import java.net.UnknownHostException
+import android.util.Log
 import java.net.HttpURLConnection
 import java.net.URL
 import java.util.concurrent.Executors
@@ -16,18 +20,32 @@ class ApiRiesgosRepository : RiesgosRepository {
     @Volatile
     private var versionActual = 0
 
-    override fun obtenerRiesgos(alExito: (List<Riesgo>) -> Unit, alError: () -> Unit) {
+    override fun obtenerRiesgos(alExito: (List<Riesgo>) -> Unit, alError: (String) -> Unit) {
         val versionSolicitud = ++versionActual
         ejecutor.execute {
             val resultado = runCatching { consultarRiesgos() }
             hiloPrincipal.post {
-                if (versionSolicitud == versionActual) resultado.fold(alExito, { alError() })
+                if (versionSolicitud == versionActual) resultado.fold(alExito, { error ->
+                    Log.e("RiesgosRepository", "No se pudo cargar el catálogo", error)
+                    val mensaje = when (error) {
+                        is ErrorHttp -> when (error.status) {
+                            404 -> "El servidor no encuentra el catálogo de riesgos. Revisa la configuración de la API."
+                            401, 403 -> "El servidor no autorizó la consulta de riesgos."
+                            else -> "El servidor no pudo consultar los riesgos (HTTP ${error.status})."
+                        }
+                        is SocketTimeoutException -> "El servidor tardó demasiado en responder. Vuelve a intentarlo."
+                        is UnknownHostException, is ConnectException -> "No se pudo conectar con el servidor de riesgos. Verifica que el computador y el teléfono estén en la misma red."
+                        is JsonParseException -> "La respuesta del servidor no tiene el formato esperado para los riesgos."
+                        else -> "No se pudo cargar la información de riesgos. Vuelve a intentarlo."
+                    }
+                    alError(mensaje)
+                })
             }
         }
     }
 
     private fun consultarRiesgos(): List<Riesgo> {
-        val conexion = URL("${BuildConfig.RIESGOS_API_URL}api/riesgos")
+        val conexion = URL("${BuildConfig.RIESGOS_CATALOGO_URL}obtener_riesgos.php")
             .openConnection() as HttpURLConnection
         conexionActual = conexion
         try {
@@ -36,20 +54,10 @@ class ApiRiesgosRepository : RiesgosRepository {
             conexion.useCaches = false
             conexion.requestMethod = "GET"
             conexion.setRequestProperty("Accept", "application/json")
-            check(conexion.responseCode in 200..299)
-            val registros = conexion.inputStream.bufferedReader(Charsets.UTF_8).use { lector ->
-                JSONArray(lector.readText())
-            }
-            return List(registros.length()) { indice ->
-                val registro = registros.getJSONObject(indice)
-                Riesgo(
-                    idRiesgo = registro.getInt("id"),
-                    nombre = registro.getString("nombre"),
-                    analisisRiesgo = registro.getString("analisis"),
-                    planAccion = registro.getString("planAccion"),
-                    consejosEstudiante = registro.getString("consejos")
-                )
-            }
+            val status = conexion.responseCode
+            if (status !in 200..299) throw ErrorHttp(status)
+            val json = conexion.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() }
+            return RiesgosJsonParser().parse(json)
         } finally {
             conexionActual = null
             conexion.disconnect()
@@ -61,6 +69,8 @@ class ApiRiesgosRepository : RiesgosRepository {
         ejecutor.shutdownNow()
         conexionActual?.disconnect()
     }
+
+    private class ErrorHttp(val status: Int) : java.io.IOException("HTTP $status")
 
     private companion object {
         const val TIEMPO_ESPERA_MS = 10000

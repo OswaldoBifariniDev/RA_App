@@ -1,262 +1,490 @@
 [
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_activity_main.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_boton_camara_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_boton_camara_perfil.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_aviso.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_aviso.xml"
+        "merged": "C:\\Users\\USERÇ\\.gradle\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_fragment_inicio.xml.flat",
+        "source": "C:\\Users\\USERÇ\\.gradle\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\fragment_inicio.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_carrusel.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_carrusel.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\anim_deslizar_salida_derecha.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\anim\\deslizar_salida_derecha.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout-land_activity_registro.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout-land/activity_registro.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_plan_incendio.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_plan_incendio.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_estado_sin_conexion.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_estado_sin_conexion.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/color_selector_borde_campo.xml.flat",
-        "source": "com.riesgosra.app-main-55:/color/selector_borde_campo.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_evitar_agua.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_evitar_agua.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_estado_sin_conexion.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_estado_sin_conexion.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_riesgo_contenido.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_riesgo_contenido.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_mochila_emergencia.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_mochila_emergencia.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.riesgosra.app-debug-4:/drawable-nodpi_escena_consejo_inundacion.png.flat",
+        "source": "com.riesgosra.app-main-6:/drawable-nodpi/escena_consejo_inundacion.png"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_marca.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_marca.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\color_selector_borde_campo.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\color\\selector_borde_campo.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_perfil.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_fragment_inicio.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/fragment_inicio.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_activity_risk_capture.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\activity_risk_capture.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_informacion.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_informacion.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_correo_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_correo_perfil.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_simulacros.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_simulacros.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_salida_derecha.xml.flat",
-        "source": "com.riesgosra.app-main-55:/anim/deslizar_salida_derecha.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_marca.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_marca.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_indicador_seleccionado.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_indicador_seleccionado.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_validado.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_validado.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_flecha_izquierda.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_flecha_izquierda.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_evacuacion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_evacuacion.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_aviso.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_aviso.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_icono_principal.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_icono_principal.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_perfil_dato_descripcion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_perfil_dato_descripcion.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_perfil.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_perfil.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_qr_code.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_qr_code.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_inicio.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_inicio.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_avisar.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_avisar.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_icono_secundario.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_icono_secundario.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_riesgo_incendio.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_riesgo_incendio.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\USERÇ\\.gradle\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_fragment_simulacros.xml.flat",
+        "source": "C:\\Users\\USERÇ\\.gradle\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\fragment_simulacros.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_fragment_ruta_segura.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/fragment_ruta_segura.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_electricidad.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_electricidad.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_punto_encuentro.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_punto_encuentro.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_punto_encuentro.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_punto_encuentro.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_carrusel.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_carrusel.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_foto_perfil_demo.png.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\foto_perfil_demo.png"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_indicador_seleccionado.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_indicador_seleccionado.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\anim_deslizar_salida_izquierda.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\anim\\deslizar_salida_izquierda.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_fecha_evento.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_fecha_evento.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\menu_menu_bottom_navigation.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\menu\\menu_bottom_navigation.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_qr_code.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_qr_code.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_riesgo.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_riesgo.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_tarjeta_principal.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_tarjeta_principal.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_ruta_segura.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_ruta_segura.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_candado.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_candado.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_persona.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_persona.xml"
+        "merged": "com.riesgosra.app-debug-4:/drawable-nodpi_escena_consejo_evacuacion.png.flat",
+        "source": "com.riesgosra.app-main-6:/drawable-nodpi/escena_consejo_evacuacion.png"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_activity_registro.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\activity_registro.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_fragment_riesgos.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/fragment_riesgos.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout-land_activity_registro.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout-land\\activity_registro.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\anim_deslizar_entrada_derecha.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\anim\\deslizar_entrada_derecha.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_plan_sismo.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_plan_sismo.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_fragment_simulacros.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/fragment_simulacros.xml"
+        "merged": "C:\\Users\\USERÇ\\.gradle\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_activity_risk_capture.xml.flat",
+        "source": "C:\\Users\\USERÇ\\.gradle\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\activity_risk_capture.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_sin_conexion.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_sin_conexion.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_inicio.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_inicio.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_tarjeta.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_tarjeta.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_tarjeta.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_tarjeta.xml"
+        "merged": "com.riesgosra.app-debug-4:/drawable-nodpi_escena_consejo_zona_segura.png.flat",
+        "source": "com.riesgosra.app-main-6:/drawable-nodpi/escena_consejo_zona_segura.png"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_activity_login.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/activity_login.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_validado.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_validado.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_recomendacion.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_recomendacion.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_icono_neutro.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_icono_neutro.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_fragment_simulacros.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\fragment_simulacros.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_fragment_riesgos.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\fragment_riesgos.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/color_bottom_navigation_item_color.xml.flat",
-        "source": "com.riesgosra.app-main-55:/color/bottom_navigation_item_color.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_flecha_derecha.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_flecha_derecha.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_ruta_evacuacion.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_ruta_evacuacion.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_flecha_atras.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_flecha_atras.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_salida_izquierda.xml.flat",
-        "source": "com.riesgosra.app-main-55:/anim/deslizar_salida_izquierda.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_cerrar_sesion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_cerrar_sesion.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/xml_data_extraction_rules.xml.flat",
-        "source": "com.riesgosra.app-main-55:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_foto_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_foto_perfil.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_entrada_derecha.xml.flat",
-        "source": "com.riesgosra.app-main-55:/anim/deslizar_entrada_derecha.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_estado_sin_conexion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_estado_sin_conexion.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_activity_registro.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/activity_registro.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\anim_deslizar_entrada_izquierda.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\anim\\deslizar_entrada_izquierda.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/anim_deslizar_entrada_izquierda.xml.flat",
-        "source": "com.riesgosra.app-main-55:/anim/deslizar_entrada_izquierda.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_ruta_segura.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_ruta_segura.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_estado_sin_conexion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_estado_sin_conexion.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_indicador.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_indicador.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_proteger_cabeza.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_proteger_cabeza.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/menu_menu_bottom_navigation.xml.flat",
-        "source": "com.riesgosra.app-main-55:/menu/menu_bottom_navigation.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_fragment_perfil.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/fragment_perfil.xml"
+        "merged": "com.riesgosra.app-debug-4:/drawable-nodpi_escena_consejo_calma.png.flat",
+        "source": "com.riesgosra.app-main-6:/drawable-nodpi/escena_consejo_calma.png"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_bg_textfield.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/bg_textfield.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_ayuda_emergencia.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_ayuda_emergencia.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_flecha_derecha.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_flecha_derecha.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_descripcion_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_descripcion_perfil.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_marca.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_marca.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_marca.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_marca.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/xml_backup_rules.xml.flat",
-        "source": "com.riesgosra.app-main-55:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_zona_segura.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_zona_segura.xml"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.riesgosra.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/drawable_ic_riesgos.xml.flat",
-        "source": "com.riesgosra.app-main-55:/drawable/ic_riesgos.xml"
+        "merged": "com.riesgosra.app-debug-4:/drawable-nodpi_escena_consejo_lugar_seguro.png.flat",
+        "source": "com.riesgosra.app-main-6:/drawable-nodpi/escena_consejo_lugar_seguro.png"
     },
     {
-        "merged": "com.riesgosra.app-debug-53:/layout_item_ayuda_emergencia.xml.flat",
-        "source": "com.riesgosra.app-main-55:/layout/item_ayuda_emergencia.xml"
+        "merged": "com.riesgosra.app-debug-4:/drawable-nodpi_escena_consejo_ventanas.png.flat",
+        "source": "com.riesgosra.app-main-6:/drawable-nodpi/escena_consejo_ventanas.png"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_descripcion_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_descripcion_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_zona_alta.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_zona_alta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_icono_neutro.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_icono_neutro.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_caminar.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_caminar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_riesgos.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_riesgos.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_riesgo_tema.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_riesgo_tema.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_flecha_izquierda.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_flecha_izquierda.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_persona.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_persona.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_indicaciones.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_indicaciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_consejo_incendio.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_consejo_incendio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_icono_secundario.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_icono_secundario.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_icono_principal.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_icono_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_consejo_inundacion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_consejo_inundacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_informacion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_informacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_tarjeta_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_tarjeta_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_alejar_fuego.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_alejar_fuego.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_perfil_dato_correo.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_perfil_dato_correo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_consejo_sismo.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_consejo_sismo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_riesgo_nombre.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_riesgo_nombre.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\color_bottom_navigation_item_color.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\color\\bottom_navigation_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_portada_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_portada_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_textfield.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_textfield.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_sin_conexion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_sin_conexion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_ruta_evacuacion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_ruta_evacuacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_consejo_estudiante.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_consejo_estudiante.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_riesgos_volver.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_riesgos_volver.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_recomendacion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_recomendacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_mochila_emergencia.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_mochila_emergencia.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_proteger_mesa.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_proteger_mesa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_activity_risk_result.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\activity_risk_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_calma.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_calma.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_perfil_dato_nombre.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_perfil_dato_nombre.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_indicador.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_indicador.xml"
+    },
+    {
+        "merged": "com.riesgosra.app-debug-4:/drawable-nodpi_escena_consejo_fuego.png.flat",
+        "source": "com.riesgosra.app-main-6:/drawable-nodpi/escena_consejo_fuego.png"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_marco_foto_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_marco_foto_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_img_consejo_alejar_ventanas.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\img_consejo_alejar_ventanas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_plan_inundacion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_plan_inundacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_item_suggestion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\item_suggestion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_candado.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_candado.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_riesgo_inundacion.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_riesgo_inundacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_camara_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_camara_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_tarjeta_principal.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_tarjeta_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_fragment_ruta_segura.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\fragment_ruta_segura.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_icono_perfil.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_icono_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_simulacros.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_simulacros.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_ic_riesgo_sismo.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\ic_riesgo_sismo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\drawable_bg_fecha_evento.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\drawable\\bg_fecha_evento.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-debug-4:\\layout_fragment_inicio.xml.flat",
+        "source": "C:\\Users\\Public\\RA_GradleCache\\daemon\\8.14.5\\com.riesgosra.app-main-6:\\layout\\fragment_inicio.xml"
     }
 ]

@@ -15,6 +15,7 @@
         android:required="false" />
 
     <application
+        android:name="com.example.ra_app.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -44,6 +45,16 @@
         <activity
             android:name="com.riesgosra.app.login.view.main.MainActivity"
             android:exported="false" />
+
+        <activity
+            android:name="com.example.ra_app.ui.risk.RiskCaptureActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RA_App" />
+
+        <activity
+            android:name="com.example.ra_app.ui.risk.RiskResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RA_App" />
 
     </application>
 </manifest>

@@ -3,6 +3,7 @@ package com.riesgosra.app.riesgos.view
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
@@ -23,6 +24,8 @@ open class RiesgosViewFragment : Fragment(R.layout.fragment_riesgos), RiesgosCon
     private lateinit var contenido: LinearLayout
     private var idRiesgoGuardado: Int? = null
     private var temaGuardado: TemaRiesgo? = null
+    private var riesgoMostrado: Int? = null
+    private val secciones = mutableMapOf<TemaRiesgo, Pair<MaterialButton, View>>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,6 +68,7 @@ open class RiesgosViewFragment : Fragment(R.layout.fragment_riesgos), RiesgosCon
         }
         riesgos.forEach { riesgo ->
             val tarjeta = inflar(R.layout.item_riesgo)
+            tarjeta.findViewById<ImageView>(R.id.img_riesgo_tipo).setImageResource(RiesgoVisuals.icono(riesgo.nombre))
             tarjeta.findViewById<TextView>(R.id.txt_riesgo_nombre).apply {
                 text = riesgo.nombre
                 ViewCompat.setAccessibilityHeading(this, true)
@@ -78,34 +82,69 @@ open class RiesgosViewFragment : Fragment(R.layout.fragment_riesgos), RiesgosCon
     }
 
     override fun mostrarTemas(riesgo: Riesgo) {
-        prepararPantalla(R.string.riesgos_informacion_titulo)
-        agregarNombre(riesgo.nombre)
-        TemaRiesgo.values().forEach { tema ->
-            val tarjeta = inflar(R.layout.item_riesgo_tema)
-            tarjeta.findViewById<MaterialButton>(R.id.btn_riesgo_tema).apply {
-                setText(obtenerTitulo(tema))
-                setIconResource(when (tema) {
-                    TemaRiesgo.ANALISIS -> R.drawable.ic_informacion
-                    TemaRiesgo.PLAN_ACCION -> R.drawable.ic_ruta_evacuacion
-                    TemaRiesgo.CONSEJOS -> R.drawable.ic_recomendacion
-                })
-                setOnClickListener { presentador?.seleccionarTema(tema) }
-            }
-            contenido.addView(tarjeta)
-        }
+        mostrarSecciones(riesgo, null)
     }
 
     override fun mostrarInformacion(riesgo: Riesgo, tema: TemaRiesgo, informacion: String) {
-        prepararPantalla(obtenerTitulo(tema))
-        agregarNombre(riesgo.nombre)
-        val tarjeta = inflar(R.layout.item_riesgo_contenido)
-        tarjeta.findViewById<TextView>(R.id.txt_riesgo_contenido).text = informacion
-        contenido.addView(tarjeta)
+        mostrarSecciones(riesgo, tema)
     }
 
-    override fun mostrarError() {
+    private fun mostrarSecciones(riesgo: Riesgo, temaAbierto: TemaRiesgo?) {
+        // Mantener las vistas y la posición de lectura al abrir o cerrar una sección.
+        if (riesgoMostrado != riesgo.idRiesgo || secciones.isEmpty()) {
+            prepararPantalla(R.string.riesgos_informacion_titulo)
+            riesgoMostrado = riesgo.idRiesgo
+            agregarNombre(riesgo.nombre)
+            TemaRiesgo.values().forEach { tema ->
+                val boton = inflar(R.layout.item_riesgo_tema) as MaterialButton
+                boton.setText(obtenerTitulo(tema))
+                boton.setIconResource(RiesgoVisuals.icono(riesgo.nombre, tema))
+                boton.setOnClickListener { presentador?.seleccionarTema(tema) }
+                contenido.addView(boton)
+                val detalle = if (tema == TemaRiesgo.CONSEJOS) {
+                    crearConsejosIlustrados(riesgo)
+                } else {
+                    inflar(R.layout.item_riesgo_contenido).apply {
+                        findViewById<TextView>(R.id.txt_riesgo_contenido).text =
+                            if (tema == TemaRiesgo.ANALISIS) riesgo.analisisRiesgo else riesgo.planAccion
+                    }
+                }
+                detalle.isVisible = false
+                contenido.addView(detalle)
+                secciones[tema] = boton to detalle
+            }
+        }
+        secciones.forEach { (tema, vistas) ->
+            val (boton, detalle) = vistas
+            val abierto = tema == temaAbierto
+            detalle.isVisible = abierto
+            ViewCompat.setStateDescription(boton, getString(
+                if (abierto) R.string.riesgos_seccion_expandida else R.string.riesgos_seccion_contraida
+            ))
+        }
+    }
+
+    private fun crearConsejosIlustrados(riesgo: Riesgo): View {
+        val lista = LinearLayout(requireContext()).apply {
+            orientation = LinearLayout.VERTICAL
+            layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+        }
+        RiesgoVisuals.consejosParaMostrar(riesgo.consejosEstudiante).forEach { consejo ->
+            val tarjeta = LayoutInflater.from(requireContext()).inflate(R.layout.item_consejo_estudiante, lista, false)
+            tarjeta.findViewById<ImageView>(R.id.img_consejo_estudiante)
+                .setImageResource(RiesgoVisuals.ilustracion(riesgo.nombre, consejo))
+            tarjeta.findViewById<TextView>(R.id.txt_consejo_estudiante).text = consejo
+            lista.addView(tarjeta)
+        }
+        return lista
+    }
+
+    override fun mostrarError(mensaje: String) {
         view?.findViewById<View>(R.id.progreso_riesgos)?.isVisible = false
-        mostrarAviso(R.string.riesgos_error_conexion)
+        val raiz = view ?: return
+        raiz.findViewById<View>(R.id.layout_riesgos_estado).isVisible = true
+        raiz.findViewById<TextView>(R.id.txt_riesgos_estado).text = mensaje
+        raiz.findViewById<View>(R.id.btn_riesgos_reintentar).isVisible = true
     }
 
     private fun mostrarAviso(mensaje: Int) {
@@ -121,6 +160,8 @@ open class RiesgosViewFragment : Fragment(R.layout.fragment_riesgos), RiesgosCon
         raiz.findViewById<View>(R.id.txt_riesgos_instruccion).isVisible = false
         raiz.findViewById<View>(R.id.progreso_riesgos).isVisible = false
         raiz.findViewById<View>(R.id.layout_riesgos_estado).isVisible = false
+        secciones.clear()
+        riesgoMostrado = null
         contenido.removeAllViews()
         raiz.findViewById<NestedScrollView>(R.id.scroll_riesgos).scrollTo(0, 0)
     }
@@ -158,6 +199,8 @@ open class RiesgosViewFragment : Fragment(R.layout.fragment_riesgos), RiesgosCon
         temaGuardado = presentador?.temaSeleccionado
         presentador?.destruir()
         presentador = null
+        secciones.clear()
+        riesgoMostrado = null
         super.onDestroyView()
     }
 

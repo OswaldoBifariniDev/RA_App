@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/btn_riesgo_tema"
     style="@style/riesgos_boton_secundario"
-    android:minHeight="104dp"
+    android:minHeight="72dp"
     android:layout_marginBottom="@dimen/espaciado_16"
     android:padding="@dimen/espaciado_16"
     android:gravity="center_vertical|start"
@@ -12,6 +12,6 @@
     android:textStyle="bold"
     android:textSize="18sp"
     app:iconGravity="start"
-    app:iconSize="48dp"
+    app:iconSize="32dp"
     app:iconPadding="@dimen/espaciado_16"
     app:iconTint="@color/color_principal" />

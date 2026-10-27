@@ -5,8 +5,8 @@ import android.content.Context
 class SesionManager(context: Context) {
 
     companion object {
-        private const val NOMBRE_PREFERENCIAS = "sesion_usuario"
-        private const val CLAVE_TOKEN = "token"
+        private const val NOMBRE_PREFERENCIAS = "auth_prefs"
+        private const val CLAVE_TOKEN = "jwt_token"
     }
 
     private val preferencias = context.getSharedPreferences(
