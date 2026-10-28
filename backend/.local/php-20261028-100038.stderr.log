@@ -1,0 +1,10 @@
+[Wed Oct 28 10:00:39 2026] PHP 8.2.12 Development Server (http://192.168.137.37:8000) started
+[Wed Oct 28 10:00:39 2026] 192.168.137.37:62017 Accepted
+[Wed Oct 28 10:00:39 2026] 192.168.137.37:62017 [200]: GET /prueba_conexion.php
+[Wed Oct 28 10:00:39 2026] 192.168.137.37:62017 Closing
+[Wed Oct 28 10:01:11 2026] 192.168.137.37:56416 Accepted
+[Wed Oct 28 10:01:11 2026] 192.168.137.37:56416 [200]: GET /prueba_conexion.php
+[Wed Oct 28 10:01:11 2026] 192.168.137.37:56416 Closing
+[Wed Oct 28 10:01:37 2026] 192.168.137.37:53275 Accepted
+[Wed Oct 28 10:01:38 2026] 192.168.137.37:53275 [200]: POST /login.php
+[Wed Oct 28 10:01:38 2026] 192.168.137.37:53275 Closing

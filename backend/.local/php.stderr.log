@@ -1,0 +1,157 @@
+[Mon Oct 26 10:57:48 2026] PHP 8.2.12 Development Server (http://192.168.33.221:8000) started
+[Mon Oct 26 10:58:02 2026] 192.168.33.221:54094 Accepted
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54094 [200]: GET /prueba_conexion.php
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54094 Closing
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54096 Accepted
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54096 [200]: POST /login.php
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54096 Closing
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54098 Accepted
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54098 [200]: GET /ruta_protegida.php
+[Mon Oct 26 10:58:03 2026] 192.168.33.221:54098 Closing
+[Mon Oct 26 11:00:57 2026] 192.168.47.0:53506 Accepted
+[Mon Oct 26 11:00:57 2026] 192.168.47.0:53506 [200]: GET /prueba_conexion.php
+[Mon Oct 26 11:00:57 2026] 192.168.47.0:53506 Closing
+[Mon Oct 26 11:01:15 2026] 192.168.47.0:55736 Accepted
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55736 [200]: POST /login.php
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55736 Closing
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55738 Accepted
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55738 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55738 Closing
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55748 Accepted
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55748 [401]: GET /ruta_protegida.php
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55748 Closing
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55762 Accepted
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55762 [401]: POST /login.php
+[Mon Oct 26 11:01:16 2026] 192.168.47.0:55762 Closing
+[Mon Oct 26 11:03:02 2026] 192.168.33.221:62939 Accepted
+[Mon Oct 26 11:03:02 2026] 192.168.33.221:62939 [200]: GET /prueba_conexion.php
+[Mon Oct 26 11:03:02 2026] 192.168.33.221:62939 Closing
+[Mon Oct 26 11:05:24 2026] 192.168.33.221:62629 Accepted
+[Mon Oct 26 11:05:24 2026] 192.168.33.221:62629 [200]: GET /prueba_conexion.php
+[Mon Oct 26 11:05:24 2026] 192.168.33.221:62629 Closing
+[Mon Oct 26 11:06:02 2026] 192.168.47.0:54402 Accepted
+[Mon Oct 26 11:06:02 2026] 192.168.47.0:54402 [200]: GET /prueba_conexion.php
+[Mon Oct 26 11:06:02 2026] 192.168.47.0:54402 Closing
+[Mon Oct 26 11:06:02 2026] 192.168.47.0:54416 Accepted
+[Mon Oct 26 11:06:03 2026] 192.168.47.0:54416 [200]: POST /login.php
+[Mon Oct 26 11:06:03 2026] 192.168.47.0:54416 Closing
+[Mon Oct 26 11:06:03 2026] 192.168.47.0:54418 Accepted
+[Mon Oct 26 11:06:03 2026] 192.168.47.0:54418 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:06:03 2026] 192.168.47.0:54418 Closing
+[Mon Oct 26 11:11:00 2026] 192.168.47.0:45788 Accepted
+[Mon Oct 26 11:11:00 2026] 192.168.47.0:45788 [200]: POST /login.php
+[Mon Oct 26 11:11:00 2026] 192.168.47.0:45788 Closing
+[Mon Oct 26 11:11:00 2026] 192.168.47.0:45798 Accepted
+[Mon Oct 26 11:11:01 2026] 192.168.47.0:45798 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:11:01 2026] 192.168.47.0:45798 Closing
+[Mon Oct 26 11:11:06 2026] 192.168.47.0:49388 Accepted
+[Mon Oct 26 11:11:06 2026] 192.168.47.0:49388 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:11:06 2026] 192.168.47.0:49388 Closing
+[Mon Oct 26 11:11:11 2026] 192.168.47.0:49390 Accepted
+[Mon Oct 26 11:11:11 2026] 192.168.47.0:49390 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:11:11 2026] 192.168.47.0:49390 Closing
+[Mon Oct 26 11:11:12 2026] 192.168.47.0:49398 Accepted
+[Mon Oct 26 11:11:12 2026] 192.168.47.0:49398 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:11:12 2026] 192.168.47.0:49398 Closing
+[Mon Oct 26 11:11:12 2026] 192.168.47.0:49414 Accepted
+[Mon Oct 26 11:11:12 2026] 192.168.47.0:49414 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:11:12 2026] 192.168.47.0:49414 Closing
+[Mon Oct 26 11:17:10 2026] 192.168.47.0:50892 Accepted
+[Mon Oct 26 11:17:11 2026] 192.168.47.0:50892 [200]: POST /login.php
+[Mon Oct 26 11:17:11 2026] 192.168.47.0:50892 Closing
+[Mon Oct 26 11:17:11 2026] 192.168.47.0:50894 Accepted
+[Mon Oct 26 11:17:11 2026] 192.168.47.0:50894 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:17:11 2026] 192.168.47.0:50894 Closing
+[Mon Oct 26 11:17:13 2026] 192.168.47.0:50898 Accepted
+[Mon Oct 26 11:17:13 2026] 192.168.47.0:50898 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:17:13 2026] 192.168.47.0:50898 Closing
+[Mon Oct 26 11:23:05 2026] 192.168.47.0:40372 Accepted
+[Mon Oct 26 11:23:05 2026] 192.168.47.0:40372 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:23:05 2026] 192.168.47.0:40372 Closing
+[Mon Oct 26 11:23:09 2026] 192.168.33.221:49685 Accepted
+[Mon Oct 26 11:23:09 2026] 192.168.33.221:49685 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:23:09 2026] 192.168.33.221:49685 Closing
+[Mon Oct 26 11:23:16 2026] 192.168.47.0:60374 Accepted
+[Mon Oct 26 11:23:16 2026] 192.168.47.0:60374 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:23:16 2026] 192.168.47.0:60374 Closing
+[Mon Oct 26 11:24:35 2026] 192.168.47.0:51218 Accepted
+[Mon Oct 26 11:24:35 2026] 192.168.47.0:51218 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:24:35 2026] 192.168.47.0:51218 Closing
+[Mon Oct 26 11:24:35 2026] 192.168.47.0:51220 Accepted
+[Mon Oct 26 11:24:35 2026] 192.168.47.0:51220 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:24:35 2026] 192.168.47.0:51220 Closing
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51234 Accepted
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51234 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51234 Closing
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51240 Accepted
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51240 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51240 Closing
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51244 Accepted
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51244 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51244 Closing
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51256 Accepted
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51256 [404]: GET /api/riesgos - No such file or directory
+[Mon Oct 26 11:24:36 2026] 192.168.47.0:51256 Closing
+[Mon Oct 26 11:25:47 2026] 192.168.47.0:52578 Accepted
+[Mon Oct 26 11:25:48 2026] 192.168.47.0:52578 [200]: POST /login.php
+[Mon Oct 26 11:25:48 2026] 192.168.47.0:52578 Closing
+[Mon Oct 26 11:25:48 2026] 192.168.47.0:52586 Accepted
+[Mon Oct 26 11:25:48 2026] 192.168.47.0:52586 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:25:48 2026] 192.168.47.0:52586 Closing
+[Mon Oct 26 11:26:38 2026] 192.168.47.0:37774 Accepted
+[Mon Oct 26 11:26:38 2026] 192.168.47.0:37774 [401]: POST /login.php
+[Mon Oct 26 11:26:38 2026] 192.168.47.0:37774 Closing
+[Mon Oct 26 11:27:18 2026] 192.168.47.0:44108 Accepted
+[Mon Oct 26 11:27:18 2026] 192.168.47.0:44108 [200]: POST /login.php
+[Mon Oct 26 11:27:18 2026] 192.168.47.0:44108 Closing
+[Mon Oct 26 11:27:18 2026] 192.168.47.0:44116 Accepted
+[Mon Oct 26 11:27:18 2026] 192.168.47.0:44116 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:27:18 2026] 192.168.47.0:44116 Closing
+[Mon Oct 26 11:34:09 2026] 192.168.47.0:57022 Accepted
+[Mon Oct 26 11:34:10 2026] 192.168.47.0:57022 [200]: POST /login.php
+[Mon Oct 26 11:34:10 2026] 192.168.47.0:57022 Closing
+[Mon Oct 26 11:34:10 2026] 192.168.47.0:57026 Accepted
+[Mon Oct 26 11:34:10 2026] 192.168.47.0:57026 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:34:10 2026] 192.168.47.0:57026 Closing
+[Mon Oct 26 11:36:47 2026] 192.168.47.0:39632 Accepted
+[Mon Oct 26 11:36:48 2026] 192.168.47.0:39632 [200]: POST /login.php
+[Mon Oct 26 11:36:48 2026] 192.168.47.0:39632 Closing
+[Mon Oct 26 11:36:48 2026] 192.168.47.0:39638 Accepted
+[Mon Oct 26 11:36:48 2026] 192.168.47.0:39638 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:36:48 2026] 192.168.47.0:39638 Closing
+[Mon Oct 26 11:37:25 2026] 192.168.47.0:37474 Accepted
+[Mon Oct 26 11:37:25 2026] 192.168.47.0:37474 [200]: POST /login.php
+[Mon Oct 26 11:37:25 2026] 192.168.47.0:37474 Closing
+[Mon Oct 26 11:37:25 2026] 192.168.47.0:37482 Accepted
+[Mon Oct 26 11:37:25 2026] 192.168.47.0:37482 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:37:25 2026] 192.168.47.0:37482 Closing
+[Mon Oct 26 11:39:20 2026] 192.168.47.0:46720 Accepted
+[Mon Oct 26 11:39:20 2026] 192.168.47.0:46720 [200]: POST /login.php
+[Mon Oct 26 11:39:20 2026] 192.168.47.0:46720 Closing
+[Mon Oct 26 11:39:20 2026] 192.168.47.0:46722 Accepted
+[Mon Oct 26 11:39:20 2026] 192.168.47.0:46722 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:39:20 2026] 192.168.47.0:46722 Closing
+[Mon Oct 26 11:39:42 2026] 192.168.47.0:47990 Accepted
+[Mon Oct 26 11:39:42 2026] 192.168.47.0:47990 [200]: POST /login.php
+[Mon Oct 26 11:39:42 2026] 192.168.47.0:47990 Closing
+[Mon Oct 26 11:39:42 2026] 192.168.47.0:48002 Accepted
+[Mon Oct 26 11:39:42 2026] 192.168.47.0:48002 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:39:42 2026] 192.168.47.0:48002 Closing
+[Mon Oct 26 11:58:25 2026] 192.168.47.0:52056 Accepted
+[Mon Oct 26 11:58:25 2026] 192.168.47.0:52056 [200]: POST /login.php
+[Mon Oct 26 11:58:25 2026] 192.168.47.0:52056 Closing
+[Mon Oct 26 11:58:25 2026] 192.168.47.0:52072 Accepted
+[Mon Oct 26 11:58:25 2026] 192.168.47.0:52072 [200]: GET /ruta_protegida.php
+[Mon Oct 26 11:58:25 2026] 192.168.47.0:52072 Closing
+[Mon Oct 26 12:00:45 2026] 192.168.47.0:35844 Accepted
+[Mon Oct 26 12:00:46 2026] 192.168.47.0:35844 [200]: POST /login.php
+[Mon Oct 26 12:00:46 2026] 192.168.47.0:35844 Closing
+[Mon Oct 26 12:00:46 2026] 192.168.47.0:35858 Accepted
+[Mon Oct 26 12:00:46 2026] 192.168.47.0:35858 [200]: GET /ruta_protegida.php
+[Mon Oct 26 12:00:46 2026] 192.168.47.0:35858 Closing
+[Mon Oct 26 15:09:39 2026] 192.168.45.183:57662 Accepted
+[Mon Oct 26 15:09:40 2026] 192.168.45.183:57662 [200]: POST /login.php
+[Mon Oct 26 15:09:40 2026] 192.168.45.183:57662 Closing
+[Mon Oct 26 15:09:40 2026] 192.168.45.183:57664 Accepted
+[Mon Oct 26 15:09:40 2026] 192.168.45.183:57664 [200]: GET /ruta_protegida.php
+[Mon Oct 26 15:09:40 2026] 192.168.45.183:57664 Closing

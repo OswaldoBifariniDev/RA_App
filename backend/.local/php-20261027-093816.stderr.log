@@ -1,0 +1,34 @@
+[Tue Oct 27 09:38:18 2026] PHP 8.2.12 Development Server (http://192.168.1.112:8000) started
+[Tue Oct 27 09:38:18 2026] 192.168.1.112:53781 Accepted
+[Tue Oct 27 09:38:18 2026] 192.168.1.112:53781 [200]: GET /prueba_conexion.php
+[Tue Oct 27 09:38:18 2026] 192.168.1.112:53781 Closing
+[Tue Oct 27 09:39:03 2026] 192.168.1.111:56938 Accepted
+[Tue Oct 27 09:39:03 2026] 192.168.1.111:56938 [200]: GET /prueba_conexion.php
+[Tue Oct 27 09:39:03 2026] 192.168.1.111:56938 Closing
+[Tue Oct 27 09:39:03 2026] 192.168.1.111:56942 Accepted
+[Tue Oct 27 09:39:04 2026] 192.168.1.111:56942 [200]: POST /login.php
+[Tue Oct 27 09:39:04 2026] 192.168.1.111:56942 Closing
+[Tue Oct 27 09:39:04 2026] 192.168.1.111:56950 Accepted
+[Tue Oct 27 09:39:04 2026] 192.168.1.111:56950 [200]: GET /ruta_protegida.php
+[Tue Oct 27 09:39:04 2026] 192.168.1.111:56950 Closing
+[Tue Oct 27 09:42:25 2026] 192.168.1.111:45848 Accepted
+[Tue Oct 27 09:42:26 2026] 192.168.1.111:45848 [200]: POST /login.php
+[Tue Oct 27 09:42:26 2026] 192.168.1.111:45848 Closing
+[Tue Oct 27 09:42:26 2026] 192.168.1.111:45864 Accepted
+[Tue Oct 27 09:42:26 2026] 192.168.1.111:45864 [200]: GET /ruta_protegida.php
+[Tue Oct 27 09:42:26 2026] 192.168.1.111:45864 Closing
+[Tue Oct 27 10:06:53 2026] 192.168.1.111:45272 Accepted
+[Tue Oct 27 10:06:53 2026] 192.168.1.111:45272 [200]: POST /login.php
+[Tue Oct 27 10:06:53 2026] 192.168.1.111:45272 Closing
+[Tue Oct 27 10:06:53 2026] 192.168.1.111:45286 Accepted
+[Tue Oct 27 10:06:53 2026] 192.168.1.111:45286 [200]: GET /ruta_protegida.php
+[Tue Oct 27 10:06:53 2026] 192.168.1.111:45286 Closing
+[Tue Oct 27 20:14:08 2026] 192.168.1.112:65424 Accepted
+[Tue Oct 27 20:14:08 2026] 192.168.1.112:65424 [200]: GET /prueba_conexion.php
+[Tue Oct 27 20:14:08 2026] 192.168.1.112:65424 Closing
+[Tue Oct 27 20:15:40 2026] 192.168.1.112:53699 Accepted
+[Tue Oct 27 20:15:40 2026] 192.168.1.112:53699 [200]: GET /obtener_riesgos.php
+[Tue Oct 27 20:15:40 2026] 192.168.1.112:53699 Closing
+[Tue Oct 27 20:17:45 2026] 192.168.1.112:58361 Accepted
+[Tue Oct 27 20:17:45 2026] 192.168.1.112:58361 [200]: GET /obtener_riesgos.php
+[Tue Oct 27 20:17:45 2026] 192.168.1.112:58361 Closing
