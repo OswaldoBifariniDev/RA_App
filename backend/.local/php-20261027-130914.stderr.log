@@ -140,3 +140,81 @@
 [Wed Oct 28 08:13:40 2026] 192.168.46.80:39658 Accepted
 [Wed Oct 28 08:13:40 2026] 192.168.46.80:39658 [200]: GET /obtener_riesgos.php
 [Wed Oct 28 08:13:40 2026] 192.168.46.80:39658 Closing
+[Wed Oct 28 14:31:08 2026] 192.168.33.221:51984 Accepted
+[Wed Oct 28 14:31:08 2026] 192.168.33.221:51984 [200]: GET /prueba_conexion.php
+[Wed Oct 28 14:31:08 2026] 192.168.33.221:51984 Closing
+[Wed Oct 28 14:31:50 2026] 192.168.47.0:51836 Accepted
+[Wed Oct 28 14:31:51 2026] 192.168.47.0:51836 [200]: POST /login.php
+[Wed Oct 28 14:31:51 2026] 192.168.47.0:51836 Closing
+[Wed Oct 28 14:31:52 2026] 192.168.47.0:51840 Accepted
+[Wed Oct 28 14:31:52 2026] 192.168.47.0:51840 [200]: GET /ruta_protegida.php
+[Wed Oct 28 14:31:52 2026] 192.168.47.0:51840 Closing
+[Wed Oct 28 14:31:54 2026] 192.168.47.0:51852 Accepted
+[Wed Oct 28 14:31:54 2026] 192.168.47.0:51852 [200]: GET /perfil.php
+[Wed Oct 28 14:31:54 2026] 192.168.47.0:51852 Closing
+[Wed Oct 28 14:31:56 2026] 192.168.47.0:51856 Accepted
+[Wed Oct 28 14:31:56 2026] 192.168.47.0:51856 [200]: GET /obtener_riesgos.php
+[Wed Oct 28 14:31:56 2026] 192.168.47.0:51856 Closing
+[Wed Oct 28 14:32:28 2026] 192.168.33.221:59744 Accepted
+[Wed Oct 28 14:32:28 2026] 192.168.33.221:59744 [200]: GET /prueba_conexion.php
+[Wed Oct 28 14:32:28 2026] 192.168.33.221:59744 Closing
+[Wed Oct 28 15:04:58 2026] 192.168.33.221:55506 Accepted
+[Wed Oct 28 15:04:58 2026] 192.168.33.221:55506 [200]: GET /prueba_conexion.php
+[Wed Oct 28 15:04:58 2026] 192.168.33.221:55506 Closing
+[Wed Oct 28 15:05:11 2026] 192.168.47.0:60868 Accepted
+[Wed Oct 28 15:05:12 2026] 192.168.47.0:60868 [200]: POST /login.php
+[Wed Oct 28 15:05:12 2026] 192.168.47.0:60868 Closing
+[Wed Oct 28 15:05:14 2026] 192.168.47.0:60874 Accepted
+[Wed Oct 28 15:05:14 2026] 192.168.47.0:60874 [200]: GET /ruta_protegida.php
+[Wed Oct 28 15:05:14 2026] 192.168.47.0:60874 Closing
+[Wed Oct 28 15:05:15 2026] 192.168.47.0:60882 Accepted
+[Wed Oct 28 15:05:15 2026] 192.168.47.0:60882 [200]: GET /perfil.php
+[Wed Oct 28 15:05:15 2026] 192.168.47.0:60882 Closing
+[Wed Oct 28 15:05:17 2026] 192.168.47.0:60888 Accepted
+[Wed Oct 28 15:05:17 2026] 192.168.47.0:60888 [200]: GET /obtener_riesgos.php
+[Wed Oct 28 15:05:17 2026] 192.168.47.0:60888 Closing
+[Wed Oct 28 15:05:41 2026] 192.168.47.0:41508 Accepted
+[Wed Oct 28 15:05:41 2026] 192.168.47.0:41508 [200]: POST /login.php
+[Wed Oct 28 15:05:41 2026] 192.168.47.0:41508 Closing
+[Wed Oct 28 15:05:41 2026] 192.168.47.0:41522 Accepted
+[Wed Oct 28 15:05:41 2026] 192.168.47.0:41522 [200]: GET /ruta_protegida.php
+[Wed Oct 28 15:05:41 2026] 192.168.47.0:41522 Closing
+[Wed Oct 28 15:05:44 2026] 192.168.47.0:41528 Accepted
+[Wed Oct 28 15:05:44 2026] 192.168.47.0:41528 [200]: GET /obtener_riesgos.php
+[Wed Oct 28 15:05:44 2026] 192.168.47.0:41528 Closing
+[Wed Oct 28 15:06:18 2026] 192.168.47.0:36410 Accepted
+[Wed Oct 28 15:06:18 2026] 192.168.47.0:36410 [200]: GET /perfil.php
+[Wed Oct 28 15:06:18 2026] 192.168.47.0:36410 Closing
+[Wed Oct 28 15:06:42 2026] 192.168.47.0:46976 Accepted
+[Wed Oct 28 15:06:43 2026] 192.168.47.0:46976 [200]: POST /login.php
+[Wed Oct 28 15:06:43 2026] 192.168.47.0:46976 Closing
+[Wed Oct 28 15:06:43 2026] 192.168.47.0:46980 Accepted
+[Wed Oct 28 15:06:43 2026] 192.168.47.0:46980 [200]: GET /ruta_protegida.php
+[Wed Oct 28 15:06:43 2026] 192.168.47.0:46980 Closing
+[Wed Oct 28 15:06:47 2026] 192.168.47.0:46984 Accepted
+[Wed Oct 28 15:06:47 2026] 192.168.47.0:46984 [200]: GET /obtener_riesgos.php
+[Wed Oct 28 15:06:47 2026] 192.168.47.0:46984 Closing
+[Wed Oct 28 15:09:38 2026] 192.168.47.0:34254 Accepted
+[Wed Oct 28 15:09:38 2026] 192.168.47.0:34254 [200]: GET /perfil.php
+[Wed Oct 28 15:09:38 2026] 192.168.47.0:34254 Closing
+[Wed Oct 28 15:09:53 2026] 192.168.47.0:58594 Accepted
+[Wed Oct 28 15:09:53 2026] 192.168.47.0:58594 [200]: POST /login.php
+[Wed Oct 28 15:09:53 2026] 192.168.47.0:58594 Closing
+[Wed Oct 28 15:09:53 2026] 192.168.47.0:58600 Accepted
+[Wed Oct 28 15:09:54 2026] 192.168.47.0:58600 [200]: GET /ruta_protegida.php
+[Wed Oct 28 15:09:54 2026] 192.168.47.0:58600 Closing
+[Wed Oct 28 15:10:39 2026] 192.168.47.0:39976 Accepted
+[Wed Oct 28 15:10:39 2026] 192.168.47.0:39976 [200]: GET /obtener_riesgos.php
+[Wed Oct 28 15:10:39 2026] 192.168.47.0:39976 Closing
+[Wed Oct 28 17:02:47 2026] 192.168.47.0:35846 Accepted
+[Wed Oct 28 17:02:47 2026] 192.168.47.0:35846 [200]: POST /login.php
+[Wed Oct 28 17:02:47 2026] 192.168.47.0:35846 Closing
+[Wed Oct 28 17:02:47 2026] 192.168.47.0:35852 Accepted
+[Wed Oct 28 17:02:47 2026] 192.168.47.0:35852 [200]: GET /ruta_protegida.php
+[Wed Oct 28 17:02:47 2026] 192.168.47.0:35852 Closing
+[Wed Oct 28 17:02:55 2026] 192.168.47.0:49706 Accepted
+[Wed Oct 28 17:02:55 2026] 192.168.47.0:49706 [200]: GET /obtener_riesgos.php
+[Wed Oct 28 17:02:55 2026] 192.168.47.0:49706 Closing
+[Wed Oct 28 17:04:38 2026] 192.168.47.0:39352 Accepted
+[Wed Oct 28 17:04:38 2026] 192.168.47.0:39352 [200]: GET /obtener_riesgos.php
+[Wed Oct 28 17:04:38 2026] 192.168.47.0:39352 Closing
