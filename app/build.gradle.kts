@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.ra_app"
+        applicationId = "com.riesgosra.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
