@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="@string/navigation_inicio" />
+
+        <item
+            android:id="@+id/navigation_riesgos"
+            android:icon="@drawable/ic_riesgos"
+            android:title="@string/navigation_riesgos" />
+
+        <item
+            android:id="@+id/navigation_simulacros"
+            android:icon="@drawable/ic_simulacros"
+            android:title="@string/navigation_simulacros" />
+
+        <item
+            android:id="@+id/navigation_ruta_segura"
+            android:icon="@drawable/ic_ruta_segura"
+            android:title="@string/navigation_ruta_segura" />
+
+        <item
+            android:id="@+id/navigation_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/navigation_perfil" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alto_encabezado_perfil">56dp</dimen>
+    <dimen name="alto_boton_perfil">50dp</dimen>
+    <dimen name="alto_encabezado_info_perfil">40dp</dimen>
+    <dimen name="tamano_icono_dato_perfil">44dp</dimen>
+    <dimen name="alto_portada_perfil">120dp</dimen>
+    <dimen name="alto_marco_foto_perfil">136dp</dimen>
+    <dimen name="tamano_foto_perfil">132dp</dimen>
+    <dimen name="radio_tarjeta_perfil">16dp</dimen>
+</resources>

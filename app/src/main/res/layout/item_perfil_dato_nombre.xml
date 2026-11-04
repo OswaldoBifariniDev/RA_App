@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="56dp"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/espaciado_minimo"
+    android:paddingBottom="@dimen/espaciado_minimo">
+
+    <ImageView
+        android:id="@+id/img_icono_dato"
+        android:layout_width="@dimen/tamano_icono_dato_perfil"
+        android:layout_height="@dimen/tamano_icono_dato_perfil"
+        android:layout_marginEnd="@dimen/espaciado_grande"
+        android:background="@drawable/bg_icono_perfil"
+        android:contentDescription="@null"
+        android:padding="@dimen/espaciado_medio"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_perfil"
+        app:tint="@color/color_primary" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_etiqueta_dato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_text_secondary"
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            tools:text="Nombres completos" />
+
+        <TextView
+            android:id="@+id/txt_valor_dato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_minimo"
+            android:lineSpacingExtra="@dimen/espaciado_minimo"
+            android:textColor="@color/color_text"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/tamano_texto_tarjeta"
+            tools:text="Ana María Pérez Torres" />
+    </LinearLayout>
+</LinearLayout>

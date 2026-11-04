@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="widget_riesgos_ra_bottom_navigation_view"
+        parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconSize">@dimen/tamano_icono_navegacion</item>
+        <item name="itemHorizontalTranslationEnabled">false</item>
+
+        <item name="itemIconTint">@color/bottom_navigation_item_color</item>
+        <item name="itemTextColor">@color/bottom_navigation_item_color</item>
+
+        <item name="itemTextAppearanceActive">
+            @style/text_appearance_riesgos_ra_bottom_navigation
+        </item>
+
+        <item name="itemTextAppearanceInactive">
+            @style/text_appearance_riesgos_ra_bottom_navigation
+        </item>
+
+        <item name="itemActiveIndicatorStyle">
+            @style/widget_riesgos_ra_bottom_navigation_active_indicator
+        </item>
+
+    </style>
+
+    <style
+        name="widget_riesgos_ra_bottom_navigation_active_indicator"
+        parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+
+        <item name="android:width">@dimen/ancho_indicador_navegacion</item>
+        <item name="android:height">@dimen/alto_indicador_navegacion</item>
+        <item name="android:color">@color/color_secondary</item>
+
+    </style>
+
+    <style
+        name="text_appearance_riesgos_ra_bottom_navigation"
+        parent="TextAppearance.Material3.LabelMedium">
+
+        <item name="android:textSize">@dimen/tamano_texto_navegacion</item>
+
+    </style>
+
+</resources>

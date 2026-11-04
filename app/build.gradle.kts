@@ -5,8 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ra_app"
+    namespace = "com.riesgosra.app"
     compileSdk = 34
+
+    buildFeatures {
+        buildConfig = true
+    }
 
     defaultConfig {
         applicationId = "com.example.ra_app"
@@ -14,6 +18,11 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+
+        val riesgosApiUrl = providers.gradleProperty("riesgosApiUrl")
+            .getOrElse("http://127.0.0.1:3000/")
+        require(riesgosApiUrl.endsWith("/") && !riesgosApiUrl.contains('"'))
+        buildConfigField("String", "RIESGOS_API_URL", "\"$riesgosApiUrl\"")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -40,6 +49,7 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.zxing.embedded)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.activity.ktx)
 
