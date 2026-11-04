@@ -1,4 +1,5 @@
 [versions]
+cameraX = "1.4.2"
 agp = "8.13.2"
 kotlin = "1.9.22"
 coreKtx = "1.10.1"
@@ -16,6 +17,13 @@ arcore = "1.41.0"       # Para Realidad Aumentada
 navigation = "2.7.7"    # Para navegar entre pantallas
 
 [libraries]
+
+# CameraX - Cámara en directo
+androidx-camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraX" }
+androidx-camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "cameraX" }
+androidx-camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraX" }
+androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraX" }
+
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

@@ -45,5 +45,12 @@
             android:name="com.riesgosra.app.login.view.main.MainActivity"
             android:exported="false" />
 
+
+
+        <activity
+            android:name="com.riesgosra.app.rutasegura.view.CamaraRutaSeguraActivity"
+            android:exported="false" />
+
+
     </application>
 </manifest>

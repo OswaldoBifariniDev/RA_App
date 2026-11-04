@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.provider.Settings
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
@@ -308,14 +307,22 @@ open class RutaSeguraMvpFragment :
     /**
      * Se conectará con CameraX en el siguiente bloque.
      */
+
     override fun abrirCamara(escenario: EscenarioRuta) {
 
-        Toast.makeText(
+        val intent = Intent(
             requireContext(),
-            R.string.ruta_segura_camara_pendiente,
-            Toast.LENGTH_SHORT
-        ).show()
+            CamaraRutaSeguraActivity::class.java
+        ).apply {
+            putExtra(
+                CamaraRutaSeguraActivity.EXTRA_ESCENARIO,
+                escenario.name
+            )
+        }
+
+        startActivity(intent)
     }
+
 
     override fun onDestroyView() {
         presentador = null

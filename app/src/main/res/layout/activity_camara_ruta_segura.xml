@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:fitsSystemWindows="true">
+
+    <!-- VISTA PREVIA DE LA CÁMARA -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/preview_camara"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:implementationMode="compatible"
+        app:scaleType="fillCenter" />
+
+    <!-- ENCABEZADO SUPERIOR -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_encabezado_camara"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_gravity="top"
+        android:layout_marginStart="@dimen/espaciado_medio"
+        android:layout_marginTop="@dimen/espaciado_medio"
+        android:layout_marginEnd="@dimen/espaciado_medio"
+        app:cardBackgroundColor="@color/color_secondary"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/espaciado_medio">
+
+            <ImageButton
+                android:id="@+id/btn_volver_camara"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/ruta_segura_desc_volver_camara"
+                android:padding="@dimen/espaciado_pequeno"
+                android:src="@drawable/ic_riesgos_volver"
+                android:tint="@color/color_primary" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/espaciado_pequeno"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ruta_segura_camara_titulo"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/tamano_texto_tarjeta"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ruta_segura_camara_subtitulo"
+                    android:textColor="@color/color_text_secondary"
+                    android:textSize="@dimen/tamano_texto_secundario" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- PANEL INFERIOR DEL RECORRIDO -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_informacion_recorrido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/espaciado_medio"
+        android:layout_marginEnd="@dimen/espaciado_medio"
+        android:layout_marginBottom="@dimen/espaciado_medio"
+        app:cardBackgroundColor="@color/color_surface"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="8dp"
+        app:strokeColor="@color/color_border"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/espaciado_grande">
+
+            <!-- ESCENARIO SELECCIONADO -->
+            <TextView
+                android:id="@+id/txt_escenario_camara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_aviso"
+                android:paddingStart="@dimen/espaciado_medio"
+                android:paddingTop="@dimen/espaciado_pequeno"
+                android:paddingEnd="@dimen/espaciado_medio"
+                android:paddingBottom="@dimen/espaciado_pequeno"
+                android:textColor="@color/color_primary"
+                android:textSize="@dimen/tamano_texto_secundario"
+                android:textStyle="bold" />
+
+            <!-- TÍTULO -->
+            <TextView
+                android:id="@+id/txt_titulo_entorno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciado_medio"
+                android:text="@string/ruta_segura_camara_entorno"
+                android:textColor="@color/color_primary"
+                android:textSize="@dimen/tamano_texto_destacado"
+                android:textStyle="bold" />
+
+            <!-- RECOMENDACIÓN SEGÚN ESCENARIO -->
+            <TextView
+                android:id="@+id/txt_mensaje_recorrido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciado_pequeno"
+                android:lineSpacingExtra="@dimen/espaciado_minimo"
+                android:textColor="@color/color_text_secondary"
+                android:textSize="@dimen/tamano_texto_cuerpo" />
+
+            <!-- ESTADO DE CÁMARA -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/espaciado_medio"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/indicador_estado_camara"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bg_indicador_seleccionado" />
+
+                <TextView
+                    android:id="@+id/txt_estado_camara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/espaciado_pequeno"
+                    android:text="@string/ruta_segura_camara_preparando"
+                    android:textColor="@color/color_text_secondary"
+                    android:textSize="@dimen/tamano_texto_secundario" />
+
+            </LinearLayout>
+
+            <!-- BOTÓN PARA FINALIZAR -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cerrar_recorrido"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/altura_boton"
+                android:layout_marginTop="@dimen/espaciado_grande"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="@string/ruta_segura_camara_cerrar"
+                android:textAllCaps="false"
+                android:textColor="@color/color_surface"
+                android:textSize="@dimen/tamano_texto_cuerpo"
+                android:textStyle="bold"
+                app:backgroundTint="@color/color_primary"
+                app:cornerRadius="@dimen/radio_boton" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

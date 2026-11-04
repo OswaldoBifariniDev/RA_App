@@ -63,4 +63,26 @@
 
 
 
-    </resources>
+    <!-- Pantalla de cámara -->
+    <string name="ruta_segura_camara_titulo">Ruta segura</string>
+    <string name="ruta_segura_camara_subtitulo">Vista de cámara en directo</string>
+    <string name="ruta_segura_camara_entorno">Entorno visible</string>
+
+    <!-- Escenarios -->
+    <string name="ruta_segura_camara_sismo">SIMULACRO · SISMO</string>
+    <string name="ruta_segura_camara_inundacion">SIMULACRO · INUNDACIÓN</string>
+    <string name="ruta_segura_camara_incendio">SIMULACRO · INCENDIO</string>
+
+    <!-- Estados de cámara -->
+    <string name="ruta_segura_camara_preparando">Preparando cámara...</string>
+    <string name="ruta_segura_camara_activa">Cámara activa · Vista en directo</string>
+    <string name="ruta_segura_camara_error">No se pudo iniciar la cámara. Comprueba que esté disponible e inténtalo nuevamente.</string>
+    <string name="ruta_segura_camara_permiso_faltante">No se dispone del permiso de cámara. Regresa e intenta nuevamente.</string>
+
+    <!-- Acciones -->
+    <string name="ruta_segura_camara_cerrar">Cerrar recorrido</string>
+    <string name="ruta_segura_desc_volver_camara">Volver a Ruta segura</string>
+
+
+
+</resources>
