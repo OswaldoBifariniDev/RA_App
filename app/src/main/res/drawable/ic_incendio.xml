@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Silueta exterior de la llama -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/color_primary"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M25,4 C27,11 36,16 37,25 C39,35 32,43 23,43 C14,43 8,37 8,28 C8,21 12,16 18,11 C18,18 21,20 21,20 C23,14 25,9 25,4 Z" />
+
+    <!-- Llama interior -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/color_primary"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M25,26 C28,30 31,33 29,38 C27,42 20,42 18,37 C16,33 19,29 22,26 C22,30 24,31 24,31 C25,29 25,27 25,26 Z" />
+
+</vector>

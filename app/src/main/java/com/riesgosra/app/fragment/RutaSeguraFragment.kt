@@ -1,6 +1,6 @@
+
 package com.riesgosra.app.fragment
 
-import androidx.fragment.app.Fragment
-import com.riesgosra.app.R
+import com.riesgosra.app.rutasegura.view.RutaSeguraMvpFragment
 
-class RutaSeguraFragment : Fragment(R.layout.fragment_ruta_segura)
+class RutaSeguraFragment : RutaSeguraMvpFragment()

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Encabezado -->
+    <string name="ruta_segura_subtitulo_app">Seguridad escolar</string>
+    <string name="ruta_segura_etiqueta">RUTA SEGURA</string>
+    <string name="ruta_segura_titulo">Muévete con confianza en tu escuela</string>
+    <string name="ruta_segura_descripcion">Usa tu cámara para prepararte y conocer las indicaciones de seguridad de tu institución educativa.</string>
+
+    <!-- Ilustración principal -->
+    <string name="ruta_segura_imagen_descripcion">Ilustración de estudiantes siguiendo una ruta de evacuación escolar hacia un punto de encuentro.</string>
+    <string name="ruta_segura_etiqueta_ilustracion">RECORRIDO ILUSTRATIVO</string>
+    <string name="ruta_segura_punto_encuentro">Punto de encuentro</string>
+    <string name="ruta_segura_punto_detalle">Referencia visual de una zona de encuentro escolar.</string>
+    <string name="ruta_segura_titulo_tarjeta">Orientación para tu seguridad</string>
+    <string name="ruta_segura_detalle_tarjeta">Prepárate para identificar indicaciones y rutas de evacuación.</string>
+
+    <!-- Selección de escenarios -->
+    <string name="ruta_segura_pregunta">¿Qué situación quieres practicar?</string>
+    <string name="ruta_segura_subtitulo_escenarios">Explora los escenarios y conoce las recomendaciones de seguridad.</string>
+    <string name="ruta_segura_sismo">Sismo</string>
+    <string name="ruta_segura_inundacion">Inundación</string>
+    <string name="ruta_segura_incendio">Incendio</string>
+
+    <!-- Recomendaciones -->
+    <string name="ruta_segura_titulo_recomendacion">RECOMENDACIÓN DE SEGURIDAD</string>
+    <string name="ruta_segura_orientacion_inicial">Prepárate para protegerte y seguir las indicaciones del personal de tu institución.</string>
+    <string name="ruta_segura_orientacion_sismo">Mantén la calma, protégete durante el movimiento y sigue las instrucciones del personal responsable cuando sea seguro desplazarte.</string>
+    <string name="ruta_segura_orientacion_inundacion">Evita cruzar corrientes de agua, aléjate de las zonas inundadas y sigue las indicaciones de las autoridades.</string>
+    <string name="ruta_segura_orientacion_incendio">Aléjate del humo y del fuego. Sigue las salidas señalizadas y avisa al personal responsable.</string>
+
+    <!-- Aviso de seguridad -->
+    <string name="ruta_segura_aviso_referencial">La ilustración es demostrativa y no representa una ruta de evacuación verificada. Sigue la señalización física y las instrucciones del personal responsable.</string>
+
+    <!-- Botón principal -->
+    <string name="ruta_segura_btn_iniciar">Iniciar recorrido seguro</string>
+    <string name="ruta_segura_aviso_camara">La cámara se activará cuando autorices su uso.</string>
+
+    <!-- Accesibilidad -->
+    <string name="ruta_segura_desc_sismo">Seleccionar escenario de sismo</string>
+    <string name="ruta_segura_desc_inundacion">Seleccionar escenario de inundación</string>
+    <string name="ruta_segura_desc_incendio">Seleccionar escenario de incendio</string>
+    <string name="ruta_segura_desc_recomendacion">Icono de recomendación de seguridad</string>
+    <string name="ruta_segura_desc_camara">Icono de cámara</string>
+
+
+
+    <!-- Permisos de cámara -->
+    <string name="ruta_segura_permiso_titulo">Acceso a la cámara</string>
+    <string name="ruta_segura_permiso_mensaje">Necesitamos acceder a tu cámara para mostrar el entorno en directo durante el recorrido seguro y preparar las futuras indicaciones visuales.</string>
+    <string name="ruta_segura_permiso_continuar">Continuar</string>
+    <string name="ruta_segura_permiso_cancelar">Cancelar</string>
+
+    <!-- Permiso rechazado -->
+    <string name="ruta_segura_permiso_denegado_titulo">Permiso de cámara necesario</string>
+    <string name="ruta_segura_permiso_denegado_mensaje">Para utilizar el recorrido seguro, debes permitir el acceso a la cámara desde los permisos de la aplicación.</string>
+    <string name="ruta_segura_permiso_reintentar">Volver a intentar</string>
+    <string name="ruta_segura_permiso_ajustes">Abrir ajustes</string>
+
+    <!-- Estado temporal -->
+    <string name="ruta_segura_camara_pendiente">Permiso concedido. La cámara se integrará en el siguiente paso.</string>
+
+
+
+
+    </resources>

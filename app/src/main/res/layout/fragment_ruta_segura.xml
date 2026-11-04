@@ -1,6 +1,444 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    tools:context="com.riesgosra.app.fragment.RutaSeguraFragment">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/espaciado_grande"
+        android:paddingTop="@dimen/espaciado_medio"
+        android:paddingEnd="@dimen/espaciado_grande"
+        android:paddingBottom="@dimen/espaciado_grande">
+
+        <!-- ENCABEZADO DE LA APLICACIÓN -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/alto_encabezado_aplicacion"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/tamano_marca_aplicacion"
+                android:layout_height="@dimen/tamano_marca_aplicacion"
+                android:background="@drawable/bg_marca"
+                android:contentDescription="@string/descripcion_marca"
+                android:padding="@dimen/espaciado_pequeno"
+                android:src="@drawable/ic_marca" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/espaciado_pequeno"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/tamano_texto_tarjeta"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ruta_segura_subtitulo_app"
+                    android:textColor="@color/color_text_secondary"
+                    android:textSize="@dimen/tamano_texto_secundario" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- PRESENTACIÓN -->
+        <TextView
+            android:id="@+id/txt_etiqueta_ruta_segura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_medio"
+            android:text="@string/ruta_segura_etiqueta"
+            android:textColor="@color/color_success"
+            android:textSize="@dimen/tamano_texto_secundario"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_titulo_ruta_segura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_pequeno"
+            android:text="@string/ruta_segura_titulo"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/tamano_texto_titulo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_descripcion_ruta_segura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_pequeno"
+            android:lineSpacingExtra="@dimen/espaciado_minimo"
+            android:text="@string/ruta_segura_descripcion"
+            android:textColor="@color/color_text_secondary"
+            android:textSize="@dimen/tamano_texto_cuerpo" />
+
+        <!-- TARJETA PRINCIPAL ILUSTRADA -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_ilustracion_ruta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_grande"
+            app:cardBackgroundColor="@color/color_surface"
+            app:cardCornerRadius="@dimen/radio_tarjeta"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/color_border"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/espaciado_pequeno">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bg_aviso"
+                    android:clipToOutline="true">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/ruta_segura_imagen_descripcion"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ilustracion_ruta_segura" />
+
+                    <!-- ETIQUETA DE ILUSTRACIÓN -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|start"
+                        android:layout_margin="@dimen/espaciado_pequeno"
+                        android:background="@drawable/bg_tarjeta_principal"
+                        android:paddingStart="@dimen/espaciado_medio"
+                        android:paddingTop="@dimen/espaciado_pequeno"
+                        android:paddingEnd="@dimen/espaciado_medio"
+                        android:paddingBottom="@dimen/espaciado_pequeno"
+                        android:text="@string/ruta_segura_etiqueta_ilustracion"
+                        android:textColor="@color/color_surface"
+                        android:textSize="@dimen/tamano_texto_secundario"
+                        android:textStyle="bold" />
+
+                    <!-- PUNTO DE ENCUENTRO -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="@dimen/espaciado_pequeno"
+                        android:background="@drawable/bg_aviso"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/espaciado_pequeno">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:contentDescription="@null"
+                            android:importantForAccessibility="no"
+                            android:src="@drawable/ic_punto_encuentro" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/espaciado_pequeno"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ruta_segura_punto_encuentro"
+                                android:textColor="@color/color_primary"
+                                android:textSize="@dimen/tamano_texto_secundario"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ruta_segura_punto_detalle"
+                                android:textColor="@color/color_text_secondary"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/espaciado_medio"
+                    android:gravity="center"
+                    android:text="@string/ruta_segura_titulo_tarjeta"
+                    android:textColor="@color/color_primary"
+                    android:textSize="@dimen/tamano_texto_destacado"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/espaciado_pequeno"
+                    android:gravity="center"
+                    android:lineSpacingExtra="@dimen/espaciado_minimo"
+                    android:text="@string/ruta_segura_detalle_tarjeta"
+                    android:textColor="@color/color_text_secondary"
+                    android:textSize="@dimen/tamano_texto_cuerpo" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- SELECCIÓN DE ESCENARIOS -->
+        <TextView
+            android:id="@+id/txt_titulo_escenarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_extra_grande"
+            android:text="@string/ruta_segura_pregunta"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/tamano_texto_destacado"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_pequeno"
+            android:text="@string/ruta_segura_subtitulo_escenarios"
+            android:textColor="@color/color_text_secondary"
+            android:textSize="@dimen/tamano_texto_cuerpo" />
+
+        <!-- TARJETAS INTERACTIVAS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_medio"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <!-- SISMO -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_escenario_sismo"
+                android:layout_width="0dp"
+                android:layout_height="116dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/color_secondary"
+                app:cardCornerRadius="@dimen/radio_tarjeta"
+                app:cardElevation="1dp"
+                app:rippleColor="@color/color_border"
+                app:strokeColor="@color/color_primary"
+                app:strokeWidth="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/espaciado_pequeno">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:contentDescription="@null"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_sismo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/espaciado_pequeno"
+                        android:text="@string/ruta_segura_sismo"
+                        android:textColor="@color/color_text"
+                        android:textSize="@dimen/tamano_texto_secundario"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- INUNDACIÓN -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_escenario_inundacion"
+                android:layout_width="0dp"
+                android:layout_height="116dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/color_surface"
+                app:cardCornerRadius="@dimen/radio_tarjeta"
+                app:cardElevation="1dp"
+                app:rippleColor="@color/color_border"
+                app:strokeColor="@color/color_border"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/espaciado_pequeno">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:contentDescription="@null"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_inundacion" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/espaciado_pequeno"
+                        android:text="@string/ruta_segura_inundacion"
+                        android:textColor="@color/color_text"
+                        android:textSize="@dimen/tamano_texto_secundario"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- INCENDIO -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_escenario_incendio"
+                android:layout_width="0dp"
+                android:layout_height="116dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/color_surface"
+                app:cardCornerRadius="@dimen/radio_tarjeta"
+                app:cardElevation="1dp"
+                app:rippleColor="@color/color_border"
+                app:strokeColor="@color/color_border"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/espaciado_pequeno">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:contentDescription="@null"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_incendio" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/espaciado_pequeno"
+                        android:text="@string/ruta_segura_incendio"
+                        android:textColor="@color/color_text"
+                        android:textSize="@dimen/tamano_texto_secundario"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <!-- PANEL UNIFICADO DE RECOMENDACIÓN Y AVISO -->
+        <LinearLayout
+            android:id="@+id/layout_orientacion_escenario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espaciado_medio"
+            android:background="@drawable/bg_aviso"
+            android:orientation="vertical"
+            android:padding="@dimen/espaciado_medio">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/tamano_vector_icono"
+                    android:layout_height="@dimen/tamano_vector_icono"
+                    android:contentDescription="@string/ruta_segura_desc_recomendacion"
+                    android:src="@drawable/ic_recomendacion" />
+
+                <TextView
+                    android:id="@+id/txt_orientacion_escenario"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/espaciado_pequeno"
+                    android:layout_weight="1"
+                    android:lineSpacingExtra="@dimen/espaciado_minimo"
+                    android:text="@string/ruta_segura_orientacion_inicial"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/tamano_texto_cuerpo" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/alto_divisor"
+                android:layout_marginTop="@dimen/espaciado_medio"
+                android:layout_marginBottom="@dimen/espaciado_pequeno"
+                android:background="@color/color_border" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/espaciado_minimo"
+                android:text="@string/ruta_segura_aviso_referencial"
+                android:textColor="@color/color_text_secondary"
+                android:textSize="@dimen/tamano_texto_secundario" />
+
+        </LinearLayout>
+
+        <!-- ACCIÓN PRINCIPAL -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_iniciar_recorrido"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_boton"
+            android:layout_marginTop="@dimen/espaciado_grande"
+            android:layout_marginBottom="@dimen/espaciado_grande"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/ruta_segura_btn_iniciar"
+            android:textAllCaps="false"
+            android:textColor="@color/color_surface"
+            android:textSize="@dimen/tamano_texto_cuerpo"
+            android:textStyle="bold"
+            app:backgroundTint="@color/color_primary"
+            app:cornerRadius="@dimen/radio_boton"
+            app:icon="@drawable/ic_camara_perfil"
+            app:iconGravity="textStart"
+            app:iconPadding="@dimen/espaciado_pequeno"
+            app:iconTint="@color/color_surface" />
+
+    </LinearLayout>
+
+</ScrollView>
