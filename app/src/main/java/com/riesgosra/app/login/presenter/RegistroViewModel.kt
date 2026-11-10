@@ -7,11 +7,13 @@ import com.riesgosra.app.login.model.repository.UsuarioRepository
 
 class RegistroViewModel : ViewModel() {
     private val repositorio = UsuarioRepository()
+    private var registroEnCurso = false
 
     val registroExitoso = MutableLiveData<Boolean>()
     val mensajeError = MutableLiveData<String>()
 
     fun validarRegistro(nombre: String, identificacion: String, correo: String, contrasena: String) {
+        if (registroEnCurso) return
         if (nombre.isBlank() || identificacion.isBlank() || correo.isBlank() || contrasena.isBlank()) {
             mensajeError.value = "Todos los campos son obligatorios"
             return
@@ -32,10 +34,16 @@ class RegistroViewModel : ViewModel() {
             contrasena = contrasena
         )
 
+        registroEnCurso = true
         repositorio.registrarUsuario(
             usuario = nuevoUsuario,
-            alExito = { registroExitoso.value = true },
-            alError = { error -> mensajeError.value = error }
+            alExito = { registroEnCurso = false; registroExitoso.value = true },
+            alError = { error -> registroEnCurso = false; mensajeError.value = error }
         )
+    }
+
+    override fun onCleared() {
+        repositorio.cerrar()
+        super.onCleared()
     }
 }

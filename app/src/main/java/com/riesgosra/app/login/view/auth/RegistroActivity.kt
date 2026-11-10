@@ -43,7 +43,7 @@ class RegistroActivity : AppCompatActivity() {
 
         viewModel.registroExitoso.observe(this) { exito ->
             if (exito) {
-                Toast.makeText(this, "Registro de demostración completado; no se creó una cuenta en la API.", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Cuenta creada. Inicia sesion con tu correo o identificacion.", Toast.LENGTH_LONG).show()
                 startActivity(Intent(this, LoginActivity::class.java))
                 finish()
             }
