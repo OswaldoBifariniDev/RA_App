@@ -10,5 +10,6 @@ interface RiesgosContract {
         fun mostrarTemas(riesgo: Riesgo)
         fun mostrarInformacion(riesgo: Riesgo, tema: TemaRiesgo, informacion: String)
         fun mostrarError()
+        fun mostrarDatosGuardados(catalogoIncluido: Boolean) {}
     }
 }

@@ -16,3 +16,6 @@ captures/
 # Local signing credentials
 *.jks
 *.keystore
+
+# Configuracion privada de analisis
+backend_analisis/.local/

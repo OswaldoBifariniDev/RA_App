@@ -1,6 +1,8 @@
 package com.riesgosra.app.login.view.main
 
 import android.os.Bundle
+import android.widget.TextView
+import android.view.Gravity
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,15 +13,17 @@ import com.riesgosra.app.fragment.InicioFragment
 import com.riesgosra.app.fragment.PerfilFragment
 import com.riesgosra.app.fragment.RiesgosFragment
 import com.riesgosra.app.fragment.RutaSeguraFragment
-import com.riesgosra.app.fragment.SimulacrosFragment
+import com.riesgosra.app.analisis.view.NavegacionAnalisis
+import com.riesgosra.app.analisis.view.AnalisisFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.riesgosra.app.R
 import com.riesgosra.app.riesgos.view.NavegacionRiesgos
 
-class MainActivity : AppCompatActivity(), NavegacionRiesgos {
+class MainActivity : AppCompatActivity(), NavegacionRiesgos, NavegacionAnalisis {
 
     private lateinit var navegacionInferior: BottomNavigationView
     private var destinoActual = R.id.navigation_inicio
+    private var destinoAnteriorAnalisis = R.id.navigation_inicio
     private var destinoAnteriorRiesgos = R.id.navigation_inicio
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,8 +42,24 @@ class MainActivity : AppCompatActivity(), NavegacionRiesgos {
         }
 
         navegacionInferior = findViewById(R.id.navegacion_inferior)
+        val destinoAnalisis = navegacionInferior.findViewById<android.view.View>(R.id.navigation_simulacros)
+        listOf(
+            com.google.android.material.R.id.navigation_bar_item_small_label_view,
+            com.google.android.material.R.id.navigation_bar_item_large_label_view
+        ).forEach { idEtiqueta ->
+            destinoAnalisis.findViewById<TextView>(idEtiqueta)?.apply {
+                isSingleLine = false
+                maxLines = 2
+                ellipsize = null
+                gravity = Gravity.CENTER
+            }
+        }
+        destinoAnalisis.findViewById<android.view.View>(
+            com.google.android.material.R.id.navigation_bar_item_icon_container
+        )?.translationY = -8 * resources.displayMetrics.density
         destinoActual = savedInstanceState?.getInt(CLAVE_DESTINO_ACTUAL) ?: R.id.navigation_inicio
         destinoAnteriorRiesgos = savedInstanceState?.getInt(CLAVE_DESTINO_ANTERIOR) ?: R.id.navigation_inicio
+        destinoAnteriorAnalisis = savedInstanceState?.getInt(CLAVE_ANTERIOR_ANALISIS) ?: R.id.navigation_inicio
         configurarNavegacion()
 
         if (savedInstanceState == null) {
@@ -53,6 +73,7 @@ class MainActivity : AppCompatActivity(), NavegacionRiesgos {
                     R.id.fragment_contenedor_principal) != null) return@setOnItemSelectedListener true
             val fragment = obtenerFragment(item.itemId) ?: return@setOnItemSelectedListener false
             if (item.itemId == R.id.navigation_riesgos) destinoAnteriorRiesgos = destinoActual
+            if (item.itemId == R.id.navigation_simulacros) destinoAnteriorAnalisis = destinoActual
             destinoActual = item.itemId
 
             supportFragmentManager
@@ -67,13 +88,19 @@ class MainActivity : AppCompatActivity(), NavegacionRiesgos {
         navegacionInferior.selectedItemId = destinoAnteriorRiesgos
     }
 
+    override fun volverDesdeAnalisis() {
+        navegacionInferior.selectedItemId = destinoAnteriorAnalisis
+    }
+
     override fun onSaveInstanceState(outState: Bundle) {
+        outState.putInt(CLAVE_ANTERIOR_ANALISIS, destinoAnteriorAnalisis)
         outState.putInt(CLAVE_DESTINO_ACTUAL, destinoActual)
         outState.putInt(CLAVE_DESTINO_ANTERIOR, destinoAnteriorRiesgos)
         super.onSaveInstanceState(outState)
     }
 
     private companion object {
+        const val CLAVE_ANTERIOR_ANALISIS = "destino_anterior_analisis"
         const val CLAVE_DESTINO_ACTUAL = "destino_actual"
         const val CLAVE_DESTINO_ANTERIOR = "destino_anterior_riesgos"
     }
@@ -82,7 +109,7 @@ class MainActivity : AppCompatActivity(), NavegacionRiesgos {
         return when (menuItemId) {
             R.id.navigation_inicio -> InicioFragment()
             R.id.navigation_riesgos -> RiesgosFragment()
-            R.id.navigation_simulacros -> SimulacrosFragment()
+            R.id.navigation_simulacros -> AnalisisFragment()
             R.id.navigation_ruta_segura -> RutaSeguraFragment()
             R.id.navigation_perfil -> PerfilFragment()
             else -> null

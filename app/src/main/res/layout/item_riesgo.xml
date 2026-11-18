@@ -14,5 +14,12 @@
             style="@style/riesgos_boton_primario"
             android:layout_marginTop="@dimen/espaciado_16"
             android:text="@string/riesgos_informacion" />
+        <LinearLayout
+            android:id="@+id/layout_riesgo_detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="12dp"
+            android:visibility="gone" />
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

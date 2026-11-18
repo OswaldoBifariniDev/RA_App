@@ -38,6 +38,7 @@ class LoginActivity : AppCompatActivity(), LoginView {
         configurarPresenter()
         configurarEventos()
         configurarInsets()
+
     }
 
     private fun configurarVistas() {

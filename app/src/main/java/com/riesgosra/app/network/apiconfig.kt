@@ -2,7 +2,7 @@ package com.riesgosra.app.network
 
 object apiconfig {
 
-        const val BASE_URL = "https://riesgo-rapp.onrender.com/"
+        const val BASE_URL = "https://riesgo-rapp-iuxu.onrender.com/"
         const val CONNECT_TIMEOUT_MS = 15_000
         const val READ_TIMEOUT_MS = 90_000
         const val USUARIOS_URL = BASE_URL + "usuarios.php"

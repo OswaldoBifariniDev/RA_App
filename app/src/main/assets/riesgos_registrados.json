@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Prevención de Incendios",
+    "analisis": "El humo y el fuego pueden causar quemaduras e impedir la salida. Las fallas eléctricas y los materiales inflamables aumentan el riesgo.",
+    "planAccion": "Revisar extintores e instalaciones eléctricas, practicar la evacuación y mantener libres las salidas.",
+    "consejos": "Si detectas humo o fuego, avisa inmediatamente a un docente.\nMantén la calma y camina sin correr ni empujar.\nSigue la ruta de evacuación indicada por el personal responsable."
+  },
+  {
+    "id": 2,
+    "nombre": "Prevención de Sismo",
+    "analisis": "Un sismo puede hacer caer objetos, romper vidrios y dañar la estructura. Aléjate de ventanas y muebles altos.",
+    "planAccion": "Asegurar estanterías, colocar objetos pesados abajo e identificar rutas y puntos de encuentro.",
+    "consejos": "Si no hay un refugio resistente cerca, agáchate junto a una pared interior, lejos de ventanas y muebles altos.\nProtege tu cabeza y cuello con las manos y los antebrazos.\nMantén la calma y permanece protegido mientras dure el movimiento.\nCuando termine el movimiento, sigue las indicaciones del personal responsable."
+  },
+  {
+    "id": 3,
+    "nombre": "Prevención de Inundaciones",
+    "analisis": "El agua acumulada puede bloquear el paso y dañar las aulas. También puede ocultar desniveles o riesgos eléctricos.",
+    "planAccion": "Limpiar desagües, guardar materiales en alto e identificar una ruta de evacuación alejada del agua.",
+    "consejos": "No camines por zonas inundadas.\nMantente alejado de cables eléctricos.\nComunica inmediatamente la situación a una persona encargada o al docente más cercano."
+  }
+]
