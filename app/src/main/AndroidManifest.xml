@@ -9,7 +9,7 @@
 
     <uses-feature
         android:name="android.hardware.camera.ar"
-        android:required="true" />
+        android:required="false" />
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
@@ -25,6 +25,12 @@
         android:theme="@style/Theme.RA_App"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
+        <provider
+            android:name="com.riesgosra.app.analisis.view.FotoAnalisisProvider"
+            android:authorities="${applicationId}.analisis.fotos"
+            android:exported="false"
+            android:grantUriPermissions="true" />
 
         <activity
             android:name="com.riesgosra.app.login.view.login.LoginActivity"

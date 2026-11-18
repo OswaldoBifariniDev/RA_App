@@ -11,8 +11,6 @@ import java.net.URL
 class ApiService {
 
     companion object {
-        // URL configurada para el teléfono físico y la red local verificada.
-        // Para usar el emulador Android, cambia la IP por 10.0.2.2.
         private const val BASE_URL = apiconfig.BASE_URL
         private const val URL_LOGIN = "${BASE_URL}login.php"
         private const val URL_RUTA_PROTEGIDA = "${BASE_URL}ruta_protegida.php"
@@ -75,6 +73,19 @@ class ApiService {
                 )
             ).use { reader ->
                 reader.readText()
+            }
+
+            if (responseCode !in 200..299) {
+                val mensaje = runCatching {
+                    JSONObject(responseBody).optString("mensaje")
+                }.getOrNull()?.takeIf { it.isNotBlank() }
+                    ?: "No fue posible iniciar sesion (HTTP $responseCode)."
+                return InicioSesionResponse(
+                    autenticado = false,
+                    mensaje = mensaje,
+                    token = null,
+                    usuario = null
+                )
             }
 
             convertirRespuesta(

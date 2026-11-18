@@ -23,6 +23,15 @@ android {
             .getOrElse("http://127.0.0.1:3000/")
         require(riesgosApiUrl.endsWith("/") && !riesgosApiUrl.contains('"'))
         buildConfigField("String", "RIESGOS_API_URL", "\"$riesgosApiUrl\"")
+        val claveGemini = providers.environmentVariable("RIESGORA_GEMINI_API_KEY").orNull
+            ?: providers.exec {
+                commandLine("powershell.exe", "-NoProfile", "-ExecutionPolicy", "RemoteSigned", "-File",
+                    rootProject.file("backend_analisis/leer_clave_compilacion.ps1").absolutePath)
+            }.standardOutput.asText.get().trim()
+        require(claveGemini.length in 20..512 && claveGemini.all { it.code in 33..126 }) {
+            "Configura el acceso privado a Gemini antes de compilar."
+        }
+        buildConfigField("String", "GEMINI_API_KEY", groovy.json.JsonOutput.toJson(claveGemini))
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

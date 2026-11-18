@@ -19,7 +19,7 @@
     <string name="error_registro_datos_incompletos">Error: Datos incompletos</string>
     <string name="navigation_inicio">Inicio</string>
     <string name="navigation_riesgos">Riesgos</string>
-    <string name="navigation_simulacros">Simulacros</string>
+    <string name="navigation_simulacros">Análisis de\nRiesgo</string>
     <string name="navigation_ruta_segura">Ruta segura</string>
     <string name="navigation_perfil">Perfil</string>
     <string name="descripcion_marca">Escudo de Aula Segura</string>

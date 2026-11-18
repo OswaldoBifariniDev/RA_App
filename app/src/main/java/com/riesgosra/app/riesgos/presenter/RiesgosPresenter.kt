@@ -57,6 +57,13 @@ class RiesgosPresenter(
     }
 
     private fun presentar() {
+        presentarContenido()
+        if (repositorio.usandoDatosGuardados) {
+            vista?.mostrarDatosGuardados(repositorio.usandoCatalogoIncluido)
+        }
+    }
+
+    private fun presentarContenido() {
         val riesgo = riesgos.find { it.idRiesgo == idRiesgoSeleccionado }
         if (riesgo == null) {
             idRiesgoSeleccionado = null

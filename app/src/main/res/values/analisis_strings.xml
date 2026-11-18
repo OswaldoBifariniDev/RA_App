@@ -1,0 +1,10 @@
+<resources>
+    <string name="analisis_titulo">Análisis de Riesgo</string>
+    <string name="analisis_introduccion">Toma o elige una foto desde un lugar seguro.</string>
+    <string name="analisis_aviso_breve">Orientación por IA; no sustituye una evaluación profesional.</string>
+    <string name="analisis_inicio">El análisis comienza automáticamente al tomar o elegir una foto.</string>
+    <string name="analisis_procesando">Identificando riesgos y preparando recomendaciones…</string>
+    <string name="analisis_resultado">Riesgos y recomendaciones</string>
+    <string name="analisis_reintentar">Volver a intentar</string>
+    <string name="analisis_elegir_foto">Elegir fotografía</string>
+</resources>

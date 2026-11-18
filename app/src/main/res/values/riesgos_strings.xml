@@ -1,6 +1,13 @@
 <resources>
     <string name="riesgos_titulo">Riesgos</string>
-    <string name="riesgos_instruccion">Selecciona un riesgo para ver su información.</string>
+    <string name="riesgos_instruccion">Selecciona un riesgo para consultar su información.</string>
+    <string name="riesgos_ocultar">Ocultar información</string>
+    <string name="riesgos_expandido">Expandido</string>
+    <string name="riesgos_contraido">Contraído</string>
+    <string name="riesgos_tema_abierto">%1$s −</string>
+    <string name="riesgos_tema_cerrado">%1$s +</string>
+    <string name="riesgos_consejo_numerado">%1$d. %2$s</string>
+    <string name="riesgos_consejo_imagen">Ilustración del consejo: %1$s</string>
     <string name="riesgos_registrados">Información registrada de los riesgos</string>
     <string name="riesgos_informacion_titulo">Información del riesgo</string>
     <string name="riesgos_informacion">Información</string>
@@ -10,7 +17,10 @@
     <string name="riesgos_consejos">Consejos para estudiantes</string>
     <string name="riesgos_volver">Volver a la pantalla anterior</string>
     <string name="riesgos_cargando">Cargando información registrada…</string>
-    <string name="riesgos_error_conexion">Sin conexión. No se pudo cargar la información registrada. Revisa la conexión y vuelve a intentar.</string>
+    <string name="riesgos_error_conexion">No se pudo actualizar la información. El servicio puede estar temporalmente fuera de servicio. Vuelve a intentarlo.</string>
+    <string name="riesgos_datos_guardados">Información guardada. Se actualizará cuando el servicio responda.</string>
+    <string name="riesgos_catalogo_incluido">Catálogo revisado. Pendiente de sincronizar con el servidor.</string>
     <string name="riesgos_vacio">No hay riesgos registrados disponibles.</string>
     <string name="riesgos_reintentar">Volver a cargar</string>
+    <string name="riesgos_instruccion_detalle">Despliega las secciones para consultar la información.</string>
 </resources>
